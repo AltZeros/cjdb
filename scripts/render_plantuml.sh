@@ -13,8 +13,8 @@ fi
 
 for f in docs/plantUML/useCases/*.puml; do
   echo "Renderizando: $f"
-  plantuml -tsvg -charset UTF-8 -o docs/img/useCases "$f"
-  plantuml -tpng -charset UTF-8 -o docs/img/useCases "$f"
+  plantuml -tsvg -charset UTF-8 -o ../docs/img/useCases "$f"
+  plantuml -tpng -charset UTF-8 -o ../docs/img/useCases "$f"
 done
 
 echo "Diagramas renderizados en docs/img/useCases/"

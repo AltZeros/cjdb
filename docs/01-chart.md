@@ -54,8 +54,6 @@ El proyecto deberá alcanzar los siguientes objetivos dentro de un plazo máximo
 - **O.2:** Registrar **50 empleadores verificados** y **250 buscadores de empleo activos** dentro de los **3 meses posteriores al lanzamiento**.
 - **O.3:** Facilitar un mínimo de **500 postulaciones laborales** a través de la plataforma durante los **primeros 4 meses de operación**.
 
-> **Nota:** Esta sección fue reformulada eliminando expresiones como "al menos" y "un mínimo de" para establecer objetivos medibles y verificables.
-
 ---
 
 ## 5. Alcance del Proyecto
