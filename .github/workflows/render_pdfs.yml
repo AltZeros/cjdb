@@ -15,12 +15,12 @@ jobs:
       - name: Set up Ruby (for Jekyll)
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.x'
+          ruby-version: '3.2.10'
 
       - name: Install Jekyll (and Bundler)
         run: |
           gem install bundler jekyll
-          bundle install || true
+          bundle install --jobs 4 --retry 3
 
       - name: Build site with Jekyll
         run: bundle exec jekyll build --trace
