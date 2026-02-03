@@ -1,0 +1,63 @@
+name: Render documentation to PDF
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  render-pdfs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby (for Jekyll)
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.x'
+
+      - name: Install Jekyll (and Bundler)
+        run: |
+          gem install bundler jekyll
+          bundle install || true
+
+      - name: Build site with Jekyll
+        run: bundle exec jekyll build --trace
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install system deps for Chromium
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libx11-xcb1 libxcomposite1 libxdamage1 libxrandr2 libgbm1 libasound2 wget
+
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Start local static server
+        run: npx http-server _site -p 8080 -c-1 & sleep 2
+
+      - name: Generate PDFs (Puppeteer)
+        run: npm run generate
+
+      - name: Upload PDFs as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: cjdb-pdfs
+          path: docs/pdfs
+
+      - name: Commit generated PDFs (optional)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/pdfs/* || true
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(docs): add generated PDFs"
+            git push
+          else
+            echo "No PDF changes to commit"
+          fi

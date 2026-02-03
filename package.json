@@ -1,0 +1,12 @@
+{
+  "name": "cjdb-pdf-render",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "generate": "node scripts/generate_pdfs.js"
+  },
+  "dependencies": {
+    "puppeteer": "^20.0.0",
+    "http-server": "^14.1.1"
+  }
+}
