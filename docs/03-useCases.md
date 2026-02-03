@@ -35,7 +35,7 @@ Este diagrama muestra una vista de alto nivel del sistema CJDB y sus principales
 
 **Diagrama (renderizado):**
 
-![Diagrama UC-01 — Vista general](img/useCases/UC-01-general.svg)
+<a href="img/useCases/UC-01-general.svg" target="_blank"><img src="img/useCases/UC-01-general.svg" alt="Diagrama UC-01 — Vista general" class="diagram-center"></a>
 
 ---
 
@@ -48,7 +48,7 @@ El Buscador de Empleo es el actor central del flujo de búsqueda y postulación 
 
 **Diagrama (renderizado):**
 
-![Diagrama UC-02 — Buscador de Empleo](img/useCases/UC-02-searcher.svg)
+<a href="img/useCases/UC-02-searcher.svg" target="_blank"><img src="img/useCases/UC-02-searcher.svg" alt="Diagrama UC-02 — Buscador de Empleo" class="diagram-center"></a>
 
 ---
 
@@ -59,7 +59,7 @@ El Empleador interactúa con el sistema para gestionar su identidad corporativa 
 
 **Diagrama (renderizado):**
 
-![Diagrama UC-03 — Empleador](img/useCases/UC-03-employer.svg)
+<a href="img/useCases/UC-03-employer.svg" target="_blank"><img src="img/useCases/UC-03-employer.svg" alt="Diagrama UC-03 — Empleador" class="diagram-center"></a>
 
 ---
 
@@ -70,7 +70,7 @@ El Administrador asegura el correcto funcionamiento, seguridad y legitimidad de 
 
 **Diagrama (renderizado):**
 
-![Diagrama UC-04 — Administrador](img/useCases/UC-04-admin.svg)
+<a href="img/useCases/UC-04-admin.svg" target="_blank"><img src="img/useCases/UC-04-admin.svg" alt="Diagrama UC-04 — Administrador" class="diagram-center"></a>
 
 ---
 

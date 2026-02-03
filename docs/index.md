@@ -40,10 +40,22 @@ Los documentos se presentan en el orden lógico del ciclo de vida del proyecto:
   Representación gráfica de las interacciones entre los actores del sistema y las funcionalidades del MVP, utilizando UML y PlantUML.
 **Diagramas renderizados:**
 
-- [UC-01 — Vista general](img/useCases/UC-01-general.svg)
-- [UC-02 — Buscador de Empleo](img/useCases/UC-02-searcher.svg)
-- [UC-03 — Empleador](img/useCases/UC-03-employer.svg)
-- [UC-04 — Administrador](img/useCases/UC-04-admin.svg)
+<link rel="stylesheet" href="/assets/css/custom.css">
+
+<div class="diagram-gallery">
+  <a href="img/useCases/UC-01-general.svg" target="_blank" title="UC-01 — Vista general">
+    <img src="img/useCases/UC-01-general.svg" alt="UC-01 — Vista general" class="img-thumbnail">
+  </a>
+  <a href="img/useCases/UC-02-searcher.svg" target="_blank" title="UC-02 — Buscador de Empleo">
+    <img src="img/useCases/UC-02-searcher.svg" alt="UC-02 — Buscador de Empleo" class="img-thumbnail">
+  </a>
+  <a href="img/useCases/UC-03-employer.svg" target="_blank" title="UC-03 — Empleador">
+    <img src="img/useCases/UC-03-employer.svg" alt="UC-03 — Empleador" class="img-thumbnail">
+  </a>
+  <a href="img/useCases/UC-04-admin.svg" target="_blank" title="UC-04 — Administrador">
+    <img src="img/useCases/UC-04-admin.svg" alt="UC-04 — Administrador" class="img-thumbnail">
+  </a>
+</div>
 ---
 
 ## 🧭 Alcance del MVP
