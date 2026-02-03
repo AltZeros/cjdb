@@ -25,15 +25,21 @@ jobs:
       - name: Render diagrams to SVG and PNG
         run: |
           for f in docs/plantUML/useCases/*.puml; do
-            plantuml -tsvg -charset UTF-8 -o docs/img/useCases "$f"
-            plantuml -tpng -charset UTF-8 -o docs/img/useCases "$f"
+            echo "Rendering $f -> $GITHUB_WORKSPACE/docs/img/useCases"
+            plantuml -tsvg -charset UTF-8 -o "$GITHUB_WORKSPACE/docs/img/useCases" "$f"
+            plantuml -tpng -charset UTF-8 -o "$GITHUB_WORKSPACE/docs/img/useCases" "$f"
           done
+          echo "Listing generated files (root):"
+          ls -la "$GITHUB_WORKSPACE/docs/img/useCases" || true
+          echo "Listing any nested generated files under source dirs (for debugging):"
+          find docs/plantUML -maxdepth 3 -type f -name "*.svg" -o -name "*.png" -ls || true
 
       - name: Commit generated diagrams
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/img/useCases/* || true
+          git status --porcelain || true
           if ! git diff --staged --quiet; then
             git commit -m "chore: render PlantUML diagrams to SVG/PNG"
             git push

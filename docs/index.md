@@ -38,7 +38,12 @@ Los documentos se presentan en el orden lógico del ciclo de vida del proyecto:
 
 - 📄 **[Diagramas de Casos de Uso](03-useCases.md)**  
   Representación gráfica de las interacciones entre los actores del sistema y las funcionalidades del MVP, utilizando UML y PlantUML.
+**Diagramas renderizados:**
 
+- [UC-01 — Vista general](img/useCases/UC-01-general.svg)
+- [UC-02 — Buscador de Empleo](img/useCases/UC-02-searcher.svg)
+- [UC-03 — Empleador](img/useCases/UC-03-employer.svg)
+- [UC-04 — Administrador](img/useCases/UC-04-admin.svg)
 ---
 
 ## 🧭 Alcance del MVP

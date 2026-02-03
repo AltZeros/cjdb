@@ -33,11 +33,9 @@ De acuerdo con los documentos base, el sistema CJDB contempla los siguientes act
 
 Este diagrama muestra una vista de alto nivel del sistema CJDB y sus principales interacciones.
 
-```plantuml
-@startuml
-!include plantUML/useCases/UC-01-general.puml
-@enduml
-```
+**Diagrama (renderizado):**
+
+![Diagrama UC-01 — Vista general](img/useCases/UC-01-general.svg)
 
 ---
 
@@ -48,11 +46,9 @@ El Buscador de Empleo es el actor central del flujo de búsqueda y postulación 
 
 ### Casos principales
 
-```plantuml
-@startuml
-!include plantUML/useCases/UC-02-searcher.puml
-@enduml
-```
+**Diagrama (renderizado):**
+
+![Diagrama UC-02 — Buscador de Empleo](img/useCases/UC-02-searcher.svg)
 
 ---
 
@@ -61,11 +57,9 @@ El Buscador de Empleo es el actor central del flujo de búsqueda y postulación 
 ### Descripción
 El Empleador interactúa con el sistema para gestionar su identidad corporativa y el ciclo de vida de las ofertas laborales.
 
-```plantuml
-@startuml
-!include plantUML/useCases/UC-03-employer.puml
-@enduml
-```
+**Diagrama (renderizado):**
+
+![Diagrama UC-03 — Empleador](img/useCases/UC-03-employer.svg)
 
 ---
 
@@ -74,11 +68,9 @@ El Empleador interactúa con el sistema para gestionar su identidad corporativa 
 ### Descripción
 El Administrador asegura el correcto funcionamiento, seguridad y legitimidad de la plataforma.
 
-```plantuml
-@startuml
-!include plantUML/useCases/UC-04-admin.puml
-@enduml
-```
+**Diagrama (renderizado):**
+
+![Diagrama UC-04 — Administrador](img/useCases/UC-04-admin.svg)
 
 ---
 
