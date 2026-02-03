@@ -40,8 +40,6 @@ Los documentos se presentan en el orden lógico del ciclo de vida del proyecto:
   Representación gráfica de las interacciones entre los actores del sistema y las funcionalidades del MVP, utilizando UML y PlantUML.
 **Diagramas renderizados:**
 
-<link rel="stylesheet" href="/assets/css/custom.css">
-
 <div class="diagram-gallery">
   <a href="img/useCases/UC-01-general.svg" target="_blank" title="UC-01 — Vista general">
     <img src="img/useCases/UC-01-general.svg" alt="UC-01 — Vista general" class="img-thumbnail">

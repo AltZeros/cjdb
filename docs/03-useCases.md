@@ -3,9 +3,6 @@
 Proyecto: **Banco de Datos de Empleos Comunitarios (CJDB)**  
 Basado en: Acta de Constitución del Proyecto y ERS
 
-<link rel="stylesheet" href="/assets/css/custom.css">
-
-## 1. Introducción
 
 Este documento describe los **diagramas de casos de uso** del sistema CJDB, representando gráficamente las interacciones entre los **actores** y el **sistema**, con el objetivo de:
 

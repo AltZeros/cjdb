@@ -1,7 +1,5 @@
 # Acta de Constitución del Proyecto (CJDB)
 
-<link rel="stylesheet" href="/assets/css/custom.css">
-
 **Código del Proyecto:** CJDB-0312-0305-2526  
 **Fecha de emisión del documento:** 03 de diciembre de 2025
 

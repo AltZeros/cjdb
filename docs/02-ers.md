@@ -2,8 +2,6 @@
 
 Proyecto: **Banco de Datos de Empleos Comunitarios (CJDB)**
 
-<link rel="stylesheet" href="/assets/css/custom.css">
-
 ---
 
 ## Control del Documento
