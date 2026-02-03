@@ -24,7 +24,7 @@ Los documentos se presentan en el orden lógico del ciclo de vida del proyecto:
 
 ### 1️⃣ Gestión del Proyecto
 
-- 📄 **[Acta de Constitución del Proyecto](01-acta.md)**  
+- 📄 **[Acta de Constitución del Proyecto](01-chart.md)**  
   Documento base que define objetivos, alcance, cronograma, presupuesto, riesgos y criterios de éxito del proyecto.
 
 ### 2️⃣ Análisis de Requerimientos
@@ -34,7 +34,7 @@ Los documentos se presentan en el orden lógico del ciclo de vida del proyecto:
 
 ### 3️⃣ Modelado Funcional
 
-- 📄 **[Diagramas de Casos de Uso](03-casos-de-uso.md)**  
+- 📄 **[Diagramas de Casos de Uso](03-useCases.md)**  
   Representación gráfica de las interacciones entre los actores del sistema y las funcionalidades del MVP, utilizando UML y PlantUML.
 
 ---
