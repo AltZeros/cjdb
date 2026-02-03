@@ -1,24 +1,26 @@
 # Banco de Datos de Empleos Comunitarios (CJDB)
 
-> **Documentación oficial del proyecto**  
-> Plataforma web para la conexión directa entre empleadores locales y buscadores de empleo dentro de la comunidad.
+> Documentación oficial del proyecto — plataforma web para la conexión directa entre empleadores locales y buscadores de empleo dentro de la comunidad.
 
 ---
 
-## 📌 Descripción General
+## Descripción general
 
-El **Banco de Datos de Empleos Comunitarios (CJDB)** es un proyecto orientado a diseñar e implementar una plataforma web centralizada que facilite la **publicación, búsqueda y postulación** a oportunidades laborales comunitarias, reduciendo la fragmentación de información y mejorando la eficiencia del mercado laboral local.
+El Banco de Datos de Empleos Comunitarios (CJDB) es una iniciativa destinada a diseñar, desarrollar y desplegar una plataforma web que facilite la **publicación, búsqueda y postulación** a vacantes en el ámbito comunitario, con énfasis en accesibilidad, transparencia y eficiencia.
 
-Esta documentación reúne los **artefactos formales de ingeniería de software** del proyecto, elaborados bajo un enfoque académico–profesional, y sirve como fuente única de referencia para:
+Este repositorio contiene los artefactos formales de ingeniería del proyecto (Acta de Constitución, Especificación de Requerimientos, diagramas UML, y otros), destinados a:
 
-- Evaluación académica
-- Desarrollo del sistema
-- Auditoría de alcance y requerimientos
-- Evolución futura del proyecto
+- Soportar el desarrollo y la validación técnica del MVP.
+- Proveer material para auditoría de alcance y requerimientos.
+- Servir de base para futuras iteraciones y ampliaciones del producto.
+
+**Nota:** Los documentos y diagramas incluyen la precondición de **validación por correo electrónico** (RF-01) para acciones como publicar o postular; el actor `Sistema de Correo` y el caso de uso `Validar correo electrónico` están representados en los diagramas de casos de uso.
+
+**Última actualización:** 3 de febrero de 2026
 
 ---
 
-## 📂 Estructura de la Documentación
+## Estructura de la documentación
 
 Los documentos se presentan en el orden lógico del ciclo de vida del proyecto:
 

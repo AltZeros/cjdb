@@ -14,20 +14,28 @@ rectangle CJDB {
   Buscador -- (Iniciar sesión)
   Buscador -- (Buscar ofertas)
   Buscador -- (Postular a oferta)
+  note right of (Postular a oferta) : Requiere cuenta validada (RF-01)
   Buscador -- (Gestionar perfil)
 
   Empleador -- (Registrarse)
   Empleador -- (Iniciar sesión)
   Empleador -- (Publicar oferta)
+  note left of (Publicar oferta) : Requiere cuenta validada (RF-01)
   Empleador -- (Editar / Cerrar oferta)
   Empleador -- (Gestionar perfil empresarial)
 
   Administrador -- (Moderar ofertas)
   Administrador -- (Gestionar usuarios)
   Administrador -- (Suspender usuarios)
-}
 
-(Registrarse) ..> Mail : <<include>>
-(Postular a oferta) ..> Mail : <<include>>
+  (Validar correo electrónico)
+  (Enviar notificación por correo)
+
+  (Registrarse) --> (Validar correo electrónico)
+  (Validar correo electrónico) ..> Mail : <<include>>
+
+  (Postular a oferta) ..> (Enviar notificación por correo) : <<include>>
+  Mail -- (Enviar notificación por correo)
+}
 
 @enduml

@@ -1,5 +1,6 @@
 @startuml
 actor "Buscador de Empleo" as Buscador
+actor "Sistema de Correo" as Mail
 
 rectangle CJDB {
   Buscador -- (Registrarse)
@@ -10,9 +11,11 @@ rectangle CJDB {
   Buscador -- (Buscar ofertas)
   Buscador -- (Ver detalle de oferta)
   Buscador -- (Postular a oferta)
+  note right of (Postular a oferta) : Requiere cuenta validada (RF-01)
 }
 
 (Registrarse) --> (Validar correo electrónico)
+(Validar correo electrónico) ..> Mail : <<include>>
 (Postular a oferta) ..> (Ver detalle de oferta) : <<include>>
 
 @enduml

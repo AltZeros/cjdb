@@ -1,17 +1,21 @@
 @startuml
 actor Empleador
+actor "Sistema de Correo" as Mail
 
 rectangle CJDB {
   Empleador -- (Registrarse)
   Empleador -- (Validar correo electrónico)
   Empleador -- (Iniciar sesión)
   Empleador -- (Gestionar perfil empresarial)
-  Empleador -- (Crear oferta laboral)
+  Empleador -- (Publicar oferta)
+  note left of (Publicar oferta) : Requiere cuenta validada (RF-01)
   Empleador -- (Editar oferta)
   Empleador -- (Cerrar oferta)
   Empleador -- (Ver postulaciones)
 }
 
-(Crear oferta laboral) ..> (Gestionar perfil empresarial) : <<include>>
+(Publicar oferta) ..> (Gestionar perfil empresarial) : <<include>>
+
+(Validar correo electrónico) ..> Mail : <<include>>
 
 @enduml

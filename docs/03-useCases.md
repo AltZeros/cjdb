@@ -50,7 +50,7 @@ El Buscador de Empleo es el actor central del flujo de búsqueda y postulación 
 
 ```plantuml
 @startuml
-!include plantUML/useCases/UC-01-searcher.puml
+!include plantUML/useCases/UC-02-searcher.puml
 @enduml
 ```
 
@@ -63,7 +63,7 @@ El Empleador interactúa con el sistema para gestionar su identidad corporativa 
 
 ```plantuml
 @startuml
-!include plantUML/useCases/UC-01-employer.puml
+!include plantUML/useCases/UC-03-employer.puml
 @enduml
 ```
 
@@ -76,7 +76,7 @@ El Administrador asegura el correcto funcionamiento, seguridad y legitimidad de 
 
 ```plantuml
 @startuml
-!include plantUML/useCases/UC-01-admin.puml
+!include plantUML/useCases/UC-04-admin.puml
 @enduml
 ```
 
@@ -87,7 +87,9 @@ El Administrador asegura el correcto funcionamiento, seguridad y legitimidad de 
 | Caso de Uso | Requerimiento ERS |
 |------------|------------------|
 | Registrarse | RF-01 |
+| Validar correo electrónico | RF-01 |
 | Gestionar perfil empleador | RF-02 |
+| Publicar oferta | RF-02 |
 | Gestionar perfil buscador | RF-03 |
 | Postular a oferta | RF-04 |
 | Moderación administrativa | RF-05 |

@@ -135,6 +135,8 @@ Los requerimientos funcionales describen **qué debe hacer el sistema**, incluye
   - Publicar ofertas.
   - Postular a ofertas.
 
+**Nota técnica (Precondición):** La validación del correo mediante el token es obligatoria para ejecutar acciones como **publicar ofertas** o **postular a ofertas** (RF-01). El sistema deberá registrar de forma auditable el estado y la fecha de validación del correo, y enviar notificaciones por correo en eventos relevantes (p. ej. confirmación de cuenta, notificación de postulación recibida). Estos comportamientos están modelados en los diagramas de casos de uso mediante el caso `Validar correo electrónico` y el actor `Sistema de Correo`.
+
 ---
 
 #### RF-02 – Gestión de Perfil de Empleador
