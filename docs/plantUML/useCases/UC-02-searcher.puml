@@ -1,0 +1,18 @@
+@startuml
+actor "Buscador de Empleo" as Buscador
+
+rectangle CJDB {
+  Buscador -- (Registrarse)
+  Buscador -- (Validar correo electrónico)
+  Buscador -- (Iniciar sesión)
+  Buscador -- (Crear / Editar perfil)
+  Buscador -- (Subir CV en PDF)
+  Buscador -- (Buscar ofertas)
+  Buscador -- (Ver detalle de oferta)
+  Buscador -- (Postular a oferta)
+}
+
+(Registrarse) --> (Validar correo electrónico)
+(Postular a oferta) ..> (Ver detalle de oferta) : <<include>>
+
+@enduml

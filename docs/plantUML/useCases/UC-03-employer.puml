@@ -1,0 +1,17 @@
+@startuml
+actor Empleador
+
+rectangle CJDB {
+  Empleador -- (Registrarse)
+  Empleador -- (Validar correo electrónico)
+  Empleador -- (Iniciar sesión)
+  Empleador -- (Gestionar perfil empresarial)
+  Empleador -- (Crear oferta laboral)
+  Empleador -- (Editar oferta)
+  Empleador -- (Cerrar oferta)
+  Empleador -- (Ver postulaciones)
+}
+
+(Crear oferta laboral) ..> (Gestionar perfil empresarial) : <<include>>
+
+@enduml

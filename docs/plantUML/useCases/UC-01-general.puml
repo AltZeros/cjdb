@@ -1,0 +1,33 @@
+@startuml
+left to right direction
+
+actor Visitante
+actor "Buscador de Empleo" as Buscador
+actor Empleador
+actor Administrador
+actor "Sistema de Correo" as Mail
+
+rectangle CJDB {
+  Visitante -- (Ver ofertas públicas)
+
+  Buscador -- (Registrarse)
+  Buscador -- (Iniciar sesión)
+  Buscador -- (Buscar ofertas)
+  Buscador -- (Postular a oferta)
+  Buscador -- (Gestionar perfil)
+
+  Empleador -- (Registrarse)
+  Empleador -- (Iniciar sesión)
+  Empleador -- (Publicar oferta)
+  Empleador -- (Editar / Cerrar oferta)
+  Empleador -- (Gestionar perfil empresarial)
+
+  Administrador -- (Moderar ofertas)
+  Administrador -- (Gestionar usuarios)
+  Administrador -- (Suspender usuarios)
+}
+
+(Registrarse) ..> Mail : <<include>>
+(Postular a oferta) ..> Mail : <<include>>
+
+@enduml

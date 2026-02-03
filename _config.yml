@@ -1,0 +1,43 @@
+
+👉 En GitHub Pages se verá como código  
+👉 En VS Code + extensión PlantUML se renderiza
+
+Más adelante, si quieres, hacemos:
+- render automático a SVG
+- `/docs/img/useCases/UC-01.svg`
+
+---
+
+## 4️⃣ `_config.yml` recomendado para tu caso
+
+Colócalo **en la raíz del repo** (no dentro de `/docs`).
+
+```yaml
+title: Banco de Datos de Empleos Comunitarios (CJDB)
+description: Documentación técnica y académica del proyecto CJDB
+theme: minima
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# GitHub Pages
+baseurl: ""        # déjalo vacío
+url: ""            # GitHub lo gestiona
+
+# Opciones visuales
+show_excerpts: false
+
+# Navegación futura (opcional)
+header_pages:
+  - docs/index.md
+  - docs/01-acta.md
+  - docs/02-ers.md
+  - docs/03-casos-de-uso.md
+
+# Excluir archivos no públicos
+exclude:
+  - README.md
+  - .github/

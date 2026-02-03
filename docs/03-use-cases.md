@@ -35,37 +35,7 @@ Este diagrama muestra una vista de alto nivel del sistema CJDB y sus principales
 
 ```plantuml
 @startuml
-left to right direction
-
-actor Visitante
-actor "Buscador de Empleo" as Buscador
-actor Empleador
-actor Administrador
-actor "Sistema de Correo" as Mail
-
-rectangle CJDB {
-  Visitante -- (Ver ofertas públicas)
-
-  Buscador -- (Registrarse)
-  Buscador -- (Iniciar sesión)
-  Buscador -- (Buscar ofertas)
-  Buscador -- (Postular a oferta)
-  Buscador -- (Gestionar perfil)
-
-  Empleador -- (Registrarse)
-  Empleador -- (Iniciar sesión)
-  Empleador -- (Publicar oferta)
-  Empleador -- (Editar / Cerrar oferta)
-  Empleador -- (Gestionar perfil empresarial)
-
-  Administrador -- (Moderar ofertas)
-  Administrador -- (Gestionar usuarios)
-  Administrador -- (Suspender usuarios)
-}
-
-(Registrarse) ..> Mail : <<include>>
-(Postular a oferta) ..> Mail : <<include>>
-
+!include plantUML/useCases/UC-01-general.puml
 @enduml
 ```
 
@@ -80,22 +50,7 @@ El Buscador de Empleo es el actor central del flujo de búsqueda y postulación 
 
 ```plantuml
 @startuml
-actor "Buscador de Empleo" as Buscador
-
-rectangle CJDB {
-  Buscador -- (Registrarse)
-  Buscador -- (Validar correo electrónico)
-  Buscador -- (Iniciar sesión)
-  Buscador -- (Crear / Editar perfil)
-  Buscador -- (Subir CV en PDF)
-  Buscador -- (Buscar ofertas)
-  Buscador -- (Ver detalle de oferta)
-  Buscador -- (Postular a oferta)
-}
-
-(Registrarse) --> (Validar correo electrónico)
-(Postular a oferta) ..> (Ver detalle de oferta) : <<include>>
-
+!include plantUML/useCases/UC-01-searcher.puml
 @enduml
 ```
 
@@ -108,21 +63,7 @@ El Empleador interactúa con el sistema para gestionar su identidad corporativa 
 
 ```plantuml
 @startuml
-actor Empleador
-
-rectangle CJDB {
-  Empleador -- (Registrarse)
-  Empleador -- (Validar correo electrónico)
-  Empleador -- (Iniciar sesión)
-  Empleador -- (Gestionar perfil empresarial)
-  Empleador -- (Crear oferta laboral)
-  Empleador -- (Editar oferta)
-  Empleador -- (Cerrar oferta)
-  Empleador -- (Ver postulaciones)
-}
-
-(Crear oferta laboral) ..> (Gestionar perfil empresarial) : <<include>>
-
+!include plantUML/useCases/UC-01-employer.puml
 @enduml
 ```
 
@@ -135,19 +76,7 @@ El Administrador asegura el correcto funcionamiento, seguridad y legitimidad de 
 
 ```plantuml
 @startuml
-actor Administrador
-
-rectangle CJDB {
-  Administrador -- (Iniciar sesión)
-  Administrador -- (Revisar ofertas reportadas)
-  Administrador -- (Eliminar oferta fraudulenta)
-  Administrador -- (Suspender usuario)
-  Administrador -- (Reactivar usuario)
-  Administrador -- (Auditar actividad)
-}
-
-(Revisar ofertas reportadas) --> (Eliminar oferta fraudulenta)
-
+!include plantUML/useCases/UC-01-admin.puml
 @enduml
 ```
 

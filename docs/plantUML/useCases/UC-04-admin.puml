@@ -1,0 +1,15 @@
+@startuml
+actor Administrador
+
+rectangle CJDB {
+  Administrador -- (Iniciar sesión)
+  Administrador -- (Revisar ofertas reportadas)
+  Administrador -- (Eliminar oferta fraudulenta)
+  Administrador -- (Suspender usuario)
+  Administrador -- (Reactivar usuario)
+  Administrador -- (Auditar actividad)
+}
+
+(Revisar ofertas reportadas) --> (Eliminar oferta fraudulenta)
+
+@enduml
