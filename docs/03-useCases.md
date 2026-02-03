@@ -3,7 +3,7 @@
 Proyecto: **Banco de Datos de Empleos Comunitarios (CJDB)**  
 Basado en: Acta de Constitución del Proyecto y ERS
 
----
+<link rel="stylesheet" href="/assets/css/custom.css">
 
 ## 1. Introducción
 
