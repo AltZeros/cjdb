@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="327px" preserveAspectRatio="none" style="width:1019px;height:327px;" version="1.1" viewBox="0 0 1019 327" width="1019px" zoomAndPan="magnify"><defs><filter height="300%" id="fe9goi4mfa0hm" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[89cca7d741880ff589fca1cbc8f9c3c4]
+cluster CJDB--><rect fill="#FFFFFF" filter="url(#fe9goi4mfa0hm)" height="202" style="stroke: #000000; stroke-width: 1.5;" width="959" x="22" y="114"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="36" x="483.5" y="128.9951">CJDB</text><ellipse cx="900.8339" cy="172.0668" fill="#FEFECE" filter="url(#fe9goi4mfa0hm)" rx="63.3339" ry="15.0668" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="89" x="856.3339" y="176.7152">Iniciar sesión</text><ellipse cx="700.2481" cy="171.8496" fill="#FEFECE" filter="url(#fe9goi4mfa0hm)" rx="102.2481" ry="22.8496" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="181" x="609.7481" y="176.498">Revisar ofertas reportadas</text><ellipse cx="781.8371" cy="277.6674" fill="#FEFECE" filter="url(#fe9goi4mfa0hm)" rx="101.3371" ry="22.6674" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="179" x="692.3371" y="282.3158">Eliminar oferta fraudulenta</text><ellipse cx="483.1374" cy="171.9275" fill="#FEFECE" filter="url(#fe9goi4mfa0hm)" rx="80.1374" ry="18.4275" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="131" x="417.6374" y="176.5759">Suspender usuario</text><ellipse cx="293.2002" cy="171.84" fill="#FEFECE" filter="url(#fe9goi4mfa0hm)" rx="74.7002" ry="17.34" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="118" x="234.2002" y="176.4885">Reactivar usuario</text><ellipse cx="110.7526" cy="171.8505" fill="#FEFECE" filter="url(#fe9goi4mfa0hm)" rx="72.2526" ry="16.8505" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="112" x="54.7526" y="176.499">Auditar actividad</text><!--MD5=[2e903384ba6a94be9c906ea46910cc3f]
+entity Administrador--><ellipse cx="591" cy="17.5" fill="#FEFECE" filter="url(#fe9goi4mfa0hm)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M591,25.5 L591,52.5 M578,33.5 L604,33.5 M591,52.5 L578,67.5 M591,52.5 L604,67.5 " fill="none" filter="url(#fe9goi4mfa0hm)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="95" x="543.5" y="85.9951">Administrador</text><!--MD5=[a514549e17e5c3c471b1a4eed2d602db]
+link Administrador to Iniciar sesión--><path d="M638.68,55.13 C686.5,62.16 761.26,76.97 820,106 C846.67,119.18 872.61,142.37 887.68,157.2 " fill="none" id="Administrador-Iniciar sesión" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[be9addf8a832b5266a5f769f844ffa7c]
+link Administrador to Revisar ofertas reportadas--><path d="M626.69,89.28 C644.57,109.22 665.53,132.58 680.45,149.21 " fill="none" id="Administrador-Revisar ofertas reportadas" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[447cc69dc420d4152b72f73b10282f8b]
+link Administrador to Eliminar oferta fraudulenta--><path d="M638.84,48.98 C733.23,49.09 938.11,55.32 982,106 C1007.89,135.9 1004.07,162.17 982,195 C956.01,233.66 908.13,253.99 865.74,264.68 " fill="none" id="Administrador-Eliminar oferta fraudulenta" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[9586befa585f8c64479d0f12f3a5adbb]
+link Administrador to Suspender usuario--><path d="M555.64,89.28 C536.32,111.01 513.38,136.83 498.52,153.54 " fill="none" id="Administrador-Suspender usuario" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a8499f034fc870dc1116ad5ce884dd66]
+link Administrador to Reactivar usuario--><path d="M543.39,57.82 C500.77,66.38 437.28,81.89 386,106 C358.19,119.07 329.74,140.35 311.76,154.98 " fill="none" id="Administrador-Reactivar usuario" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ef373486384f6ea7c7245723c71abfcb]
+link Administrador to Auditar actividad--><path d="M543.49,49.18 C468.11,50.24 317.68,58.76 201,106 C172.42,117.57 144.41,140.07 127.42,155.32 " fill="none" id="Administrador-Auditar actividad" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[2b07e77fe7281117afd5cf7f1c9cdfa6]
+link Revisar ofertas reportadas to Eliminar oferta fraudulenta--><path d="M717.19,194.7 C730.18,211.09 748.04,233.64 761.73,250.92 " fill="none" id="Revisar ofertas reportadas-&gt;Eliminar oferta fraudulenta" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="765.11,255.19,762.6581,245.6512,762.0058,251.2704,756.3866,250.618,765.11,255.19" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[36ee38e5d9c27d4bef6dbb83156f5a8e]
+@startuml
+actor Administrador
+
+rectangle CJDB {
+  Administrador - - (Iniciar sesión)
+  Administrador - - (Revisar ofertas reportadas)
+  Administrador - - (Eliminar oferta fraudulenta)
+  Administrador - - (Suspender usuario)
+  Administrador - - (Reactivar usuario)
+  Administrador - - (Auditar actividad)
+}
+
+(Revisar ofertas reportadas) - -> (Eliminar oferta fraudulenta)
+
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 06:22:07 VET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 17.0.18+8-Debian-1deb12u1
+Operating System: Linux
+Default Encoding: UTF-8
+Language: es
+Country: VE
+--></g></svg>
