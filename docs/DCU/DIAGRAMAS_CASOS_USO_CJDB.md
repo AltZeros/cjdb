@@ -23,50 +23,62 @@ Los diagramas han sido diseñados siguiendo el estándar UML 2.0 y documentan la
 
 ### 1. Conexiones (Líneas y Flechas)
 
-| Elemento | Símbolo | Descripción |
-|----------|---------|-------------|
-| **Asociación** | `actor -- usecase` | Representa la interacción entre un actor y un caso de uso. El actor inicia o participa en el caso de uso. |
-| **Include (Inclusión)** | `usecase1 ..> usecase2 : <<include>>` | Indica que un caso de uso **siempre** ejecuta otro caso de uso como parte de su flujo. Es una dependencia obligatoria. |
-| **Extend (Extensión)** | `usecase1 <.. usecase2 : <<extend>>` | Indica que un caso de uso **opcionalmente** añade comportamiento a otro caso de uso. Es una dependencia condicional. |
-| **Creación** | `usecase ..> actor : <<creates>>` | Indica que un caso de uso crea o transiciona a un actor/estado. |
-| **Comunicación** | `usecase ..> actor : <<sends>>` | Indica que un caso de uso envía información a un actor externo (ej: sistema de correo). |
+| Elemento | Representación Visual | Descripción |
+|----------|----------------------|-------------|
+| **Asociación** | actor ─── caso_uso | Representa la interacción entre un actor y un caso de uso. El actor inicia o participa en el caso de uso. |
+| **Include (Inclusión)** | caso_base ──▶ caso_incluido «include» | Indica que un caso de uso **siempre** ejecuta otro caso de uso como parte de su flujo. Es una dependencia obligatoria. |
+| **Extend (Extensión)** | caso_extendido ◀── caso_base «extend» | Indica que un caso de uso **opcionalmente** añade comportamiento a otro caso de uso. Es una dependencia condicional. |
+| **Creación** | caso_uso ──▶ actor «creates» | Indica que un caso de uso crea o transiciona a un actor/estado. |
+| **Comunicación** | caso_uso ──▶ actor «sends» | Indica que un caso de uso envía información a un actor externo (ej: sistema de correo). |
 
 ### 2. Estereotipos Estándar
 
 | Estereotipo | Uso | Descripción |
 |-------------|-----|-------------|
-| `<<include>>` | Relación | Dependencia obligatoria. El caso de uso base no puede completarse sin el caso de uso incluido. |
-| `<<extend>>` | Relación | Dependencia opcional. El caso de uso extendido añade funcionalidad bajo condiciones específicas. |
-| `<<include>>` | Caso de uso | Marca un caso de uso como inclusión obligatoria desde otro. |
-| `<<exclude>>` | Caso de uso | Excluye explícitamente un comportamiento del flujo principal. |
+| «include» | Relación | Dependencia obligatoria. El caso de uso base no puede completarse sin el caso de uso incluido. |
+| «extend» | Relación | Dependencia opcional. El caso de uso extendido añade funcionalidad bajo condiciones específicas. |
+| «include» | Caso de uso | Marca un caso de uso como inclusión obligatoria desde otro. |
+| «exclude» | Caso de uso | Excluye explícitamente un comportamiento del flujo principal. |
 
 ### 3. Estereotipos Personalizados del Proyecto
 
 | Estereotipo | Uso | Descripción |
 |-------------|-----|-------------|
-| `<<Internal>>` | Caso de uso | Representa lógica de negocio interna que no es visible directamente para los actores pero es ejecutada por el sistema. |
-| `<<Abstract>>` | Caso de uso | Define una abstracción o validación conceptual usada por otros casos de uso (ej: "Verificar Estado"). |
-| `<<System>>` | Actor | Representa un sistema externo que interactúa con el sistema CJDB (ej: Sistema de Correo). |
+| «Internal» | Caso de uso | Representa lógica de negocio interna que no es visible directamente para los actores pero es ejecutada por el sistema. |
+| «Abstract» | Caso de uso | Define una abstracción o validación conceptual usada por otros casos de uso (ej: "Verificar Estado"). |
+| «System» | Actor | Representa un sistema externo que interactúa con el sistema CJDB (ej: Sistema de Correo). |
 
 ### 4. Tipos de Elementos Visuales
 
 | Elemento | Símbolo UML | Descripción |
 |----------|-------------|-------------|
-| **Actor** | `actor "Nombre" as Alias` | Entidad externa que interactúa con el sistema. Puede ser una persona, otro sistema o un dispositivo. |
-| **Caso de Uso** | `usecase "Nombre" as Alias` | Funcionalidad del sistema desde la perspectiva del usuario. |
-| **Sistema/Frontera** | `rectangle "Nombre"` | Delimita el alcance del sistema y agrupa casos de uso relacionados. |
-| **Paquete** | `package "Nombre"` | Agrupa elementos lógicos relacionados dentro del sistema. |
-| **Nota** | `note "Texto" as N_Alias` | Proporciona información adicional o restricciones sobre elementos del diagrama. |
+| **Actor** | ☐「Nombre」 | Entidad externa que interactúa con el sistema. Puede ser una persona, otro sistema o un dispositivo. |
+| **Caso de Uso** | ○「Nombre」 | Funcionalidad del sistema desde la perspectiva del usuario. |
+| **Sistema/Frontera** | ▭「Nombre」 | Delimita el alcance del sistema y agrupa casos de uso relacionados. |
+| **Paquete** | ⊞「Nombre」 | Agrupa elementos lógicos relacionados dentro del sistema. |
+| **Nota** | ▿「Texto」 | Proporciona información adicional o restricciones sobre elementos del diagrama. |
 
 ### 5. Convenciones de Color y Forma
 
 | Elemento | Color/Forma | Propósito |
 |----------|-------------|-----------|
 | Actor Principal | Figura de palo (stick figure) | Representa usuarios humanos o sistemas externos |
-| Sistema Externo | `<<System>>` | Sistemas externos como correo electrónico |
-| Casos de Uso Internos | `<<Internal>>` | Lógica de negocio no visible al usuario |
-| Validaciones | `<<Abstract>>` | Verificaciones de estado o reglas de negocio |
+| Sistema Externo | «System» | Sistemas externos como correo electrónico |
+| Casos de Uso Internos | «Internal» | Lógica de negocio no visible al usuario |
+| Validaciones | «Abstract» | Verificaciones de estado o reglas de negocio |
 | Notas | Rectángulo con esquina doblada | Información complementaria |
+
+---
+
+## Actores del Sistema
+
+| Actor | Descripción | Funciones Principales |
+|-------|-------------|----------------------|
+| **Visitante** | Usuario no autenticado que accede a funciones públicas | Registrarse, Iniciar Sesión, Recuperar Contraseña, Validar Token, Buscar Ofertas |
+| **Buscador de Empleo** | Usuario registrado, autenticado y verificado con rol de búsqueda de empleo | Gestionar Perfil/CV, Buscar Ofertas, Postular a Vacantes, Cerrar Sesión |
+| **Empleador** | Usuario registrado, autenticado y verificado con rol empresarial | Gestionar Perfil Empresa, Publicar/Cerrar Vacantes, Ver Postulaciones, Descargar CV, Cerrar Sesión |
+| **Administrador** | Usuario con permisos elevados de moderación | Listar Usuarios/Ofertas, Auditar Contenido, Ver Métricas, Suspender Usuarios, Dar de Baja Ofertas, Cerrar Sesión |
+| **Sistema de Correo** | Sistema externo de notificaciones | Enviar notificaciones y tokens de verificación |
 
 ---
 
@@ -76,6 +88,13 @@ Los diagramas han sido diseñados siguiendo el estándar UML 2.0 y documentan la
 
 ![00-master-diagram](img4/00-master-diagram.svg)
 
+**Actores Participantes:**
+- ☐ Visitante
+- ☐ Buscador de Empleo
+- ☐ Empleador
+- ☐ Administrador
+- ☐ Sistema de Correo «System»
+
 **Descripción:** Vista consolidada de todos los módulos y actores del sistema CJDB.
 
 **Módulos Incluidos:**
@@ -84,23 +103,29 @@ Los diagramas han sido diseñados siguiendo el estándar UML 2.0 y documentan la
 - Módulo 3: Búsqueda y Postulación (RF-03/04)
 - Módulo 4: Back-Office (RF-05)
 
-**Actores:** Visitante, Buscador de Empleo, Empleador, Administrador, Sistema de Correo
-
 ---
 
 ### Diagrama 01: Context Overview (Vista de Contexto)
 
 ![01-context-overview](img4/01-context-overview.svg)
 
+**Actores Participantes:**
+- ☐ Visitante
+- ☐ Buscador de Empleo
+- ☐ Empleador
+- ☐ Administrador
+
 **Descripción:** Mapa general de acceso por rol sin herencias confusas.
 
 **Funciones Principales:**
-- Registro e Inicio de Sesión
-- Búsqueda de Ofertas Públicas
-- Gestión de Perfil y CV
-- Postulación a Empleos
-- Administración de Vacantes
-- Moderación de Usuarios/Contenido
+- ○ Registrarse
+- ○ Iniciar Sesión
+- ○ Cerrar Sesión
+- ○ Buscar Ofertas Públicas
+- ○ Gestionar Perfil y CV
+- ○ Postular a Empleos
+- ○ Publicar y Gestionar Vacantes
+- ○ Administrar Usuarios/Contenido
 
 **Nota Importante:** La búsqueda es pública, pero postular requiere registro.
 
@@ -110,15 +135,22 @@ Los diagramas han sido diseñados siguiendo el estándar UML 2.0 y documentan la
 
 ![02-authentication](img4/02-authentication.svg)
 
+**Actores Participantes:**
+- ☐ Visitante
+- ☐ Buscador de Empleo
+- ☐ Empleador
+- ☐ Administrador
+- ☐ Sistema de Correo «System»
+
 **Descripción:** Módulo de identidad y acceso con distinción clara entre visitantes y usuarios autenticados.
 
 **Casos de Uso:**
-- Registrar Cuenta (Visitor)
-- Iniciar Sesión
-- Recuperar Contraseña
-- Validar Token Email
-- Cerrar Sesión (Autenticados)
-- Enviar Correo de Verificación (Internal)
+- ○ Registrar Cuenta (Visitante)
+- ○ Iniciar Sesión
+- ○ Recuperar Contraseña
+- ○ Validar Token Email
+- ○ Cerrar Sesión (Autenticados)
+- ○ Enviar Correo de Verificación «Internal»
 
 **Transición:** Al validar el token o hacer login, el Visitante se convierte en Usuario.
 
@@ -128,11 +160,15 @@ Los diagramas han sido diseñados siguiendo el estándar UML 2.0 y documentan la
 
 ![03-job-management](img4/03-job-management.svg)
 
+**Actores Participantes:**
+- ☐ Empleador
+- ☐ Sistema de Correo «System»
+
 **Descripción:** Gestión del perfil corporativo y ciclo de vida de vacantes.
 
 **Sub-paquetes:**
-- Gestión Corporativa (RF-02): Perfil Empresa, Cargar Logo/Descripción
-- Gestión de Vacantes: Publicar, Editar/Cerrar, Ver Postulaciones, Descargar CV
+- Gestión Corporativa (RF-02): ○ Perfil Empresa, ○ Cargar Logo/Descripción
+- Gestión de Vacantes: ○ Publicar, ○ Editar/Cerrar, ○ Ver Postulaciones, ○ Descargar CV
 
 **Validación:** Requiere cuenta verificada para publicar ofertas.
 
@@ -142,18 +178,22 @@ Los diagramas han sido diseñados siguiendo el estándar UML 2.0 y documentan la
 
 ![04-search-application](img4/04-search-application.svg)
 
+**Actores Participantes:**
+- ☐ Buscador de Empleo
+- ☐ Sistema de Correo «System»
+
 **Descripción:** Flujo del Buscador de Empleo con restricciones técnicas y validaciones de negocio.
 
 **Casos de Uso:**
-- Buscar Ofertas
-- Filtrar (Categoría/Salario) - Extendido
-- Ver Detalle de Oferta
-- Gestionar Perfil
-- Cargar/Actualizar CV (PDF, máx 5MB)
-- Postular a Vacante
-- Validar Postulación Única (Internal)
-- Verificar Email Validado (Abstract)
-- Notificar Postulación (Internal)
+- ○ Buscar Ofertas
+- ○ Filtrar (Categoría/Salario) «extend»
+- ○ Ver Detalle de Oferta
+- ○ Gestionar Perfil
+- ○ Cargar/Actualizar CV (PDF, máx 5MB)
+- ○ Postular a Vacante
+- ○ Validar Postulación Única «Internal»
+- ○ Verificar Email Validado «Abstract»
+- ○ Notificar Postulación «Internal»
 
 **Validaciones:**
 - Usuario debe estar autenticado
@@ -166,14 +206,17 @@ Los diagramas han sido diseñados siguiendo el estándar UML 2.0 y documentan la
 
 ![05-administration](img4/05-administration.svg)
 
+**Actores Participantes:**
+- ☐ Administrador
+
 **Descripción:** Panel de control para Administradores con herramientas de moderación.
 
 **Casos de Uso:**
-- Listar Usuarios y Ofertas
-- Auditar Contenido (Extended)
-- Ver Métricas Globales
-- Suspender Usuario (Extended)
-- Dar de Baja Oferta (Extended)
+- ○ Listar Usuarios y Ofertas
+- ○ Auditar Contenido «extend»
+- ○ Ver Métricas Globales
+- ○ Suspender Usuario «extend»
+- ○ Dar de Baja Oferta «extend»
 
 **Regla de Moderación:** Se eliminan ofertas fraudulentas o que violen normas comunitarias.
 
@@ -183,6 +226,12 @@ Los diagramas han sido diseñados siguiendo el estándar UML 2.0 y documentan la
 
 ![06-security-validation](img4/06-security-validation.svg)
 
+**Actores Participantes:**
+- ☐ Visitante
+- ☐ Buscador de Empleo
+- ☐ Empleador
+- ☐ Administrador
+
 **Descripción:** Diagrama de impacto de la validación de correo (Token) y funciones protegidas.
 
 **Flujo de Verificación:**
@@ -191,8 +240,8 @@ Los diagramas han sido diseñados siguiendo el estándar UML 2.0 y documentan la
 3. Usuario verificado puede acceder a funciones protegidas
 
 **Funciones Protegidas:**
-- Publicar Oferta (Empleador)
-- Postular a Oferta (Buscador)
+- ○ Publicar Oferta (Empleador)
+- ○ Postular a Oferta (Buscador)
 
 **Acceso Denegado:** Si el correo no está validado, estas funciones están bloqueadas.
 
@@ -207,18 +256,6 @@ Los diagramas han sido diseñados siguiendo el estándar UML 2.0 y documentan la
 | RF-03 | Gestión de Perfil de Buscador | 00, 04 | Gestionar Perfil/CV, Cargar CV (PDF, 5MB) |
 | RF-04 | Motor de Postulación | 00, 04 | Postular a Vacante, Validar Postulación Única |
 | RF-05 | Moderación Administrativa | 00, 05 | Moderar Usuarios/Ofertas, Suspender Usuario, Dar de Baja Oferta |
-
----
-
-## Actores del Sistema
-
-| Actor | Descripción | Funciones Principales |
-|-------|-------------|----------------------|
-| **Visitante** | Usuario no autenticado | Registrarse, Iniciar Sesión, Recuperar Contraseña, Validar Token, Buscar Ofertas |
-| **Buscador de Empleo** | Usuario registrado y autenticado | Gestionar Perfil/CV, Buscar Ofertas, Postular a Vacantes, Cerrar Sesión |
-| **Empleador** | Usuario con rol empresarial | Gestionar Perfil Empresa, Publicar/Cerrar Vacantes, Ver Postulaciones, Descargar CV, Cerrar Sesión |
-| **Administrador** | Usuario con permisos elevados | Listar Usuarios/Ofertas, Auditar Contenido, Ver Métricas, Suspender Usuarios, Dar de Baja Ofertas, Cerrar Sesión |
-| **Sistema de Correo** | Sistema externo | Enviar notificaciones y tokens de verificación |
 
 ---
 
