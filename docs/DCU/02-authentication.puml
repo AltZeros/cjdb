@@ -1,0 +1,52 @@
+@startuml
+title <size:18>Módulo 4.1: Autenticación y Seguridad</size>
+header Proyecto CJDB
+footer Ref: ERS RF-01 - Gestión de Identidad
+' caption Figura: Distinción clara entre Visitante y Usuario
+
+left to right direction
+skinparam packageStyle rectangle
+
+actor "Visitante (No Autenticado)" as Guest
+actor "Buscador de Empleo" as Searcher
+actor "Empleador" as Employer
+actor "Administrador" as Admin
+actor "Sistema de Correo" as Mail <<System>>
+
+rectangle "Módulo Auth" {
+  ' Acciones del Visitante
+  usecase "Registrar Cuenta" as UC_Reg
+  usecase "Iniciar Sesión" as UC_Login
+  usecase "Recuperar Contraseña" as UC_Recov
+  usecase "Validar Token Email" as UC_Valid
+  
+  ' Acciones de Usuarios Autenticados
+  usecase "Cerrar Sesión" as UC_Logout
+  
+  ' Sistema Interno
+  usecase "Enviar Correo de Verificación" as UC_SendMail <<Internal>>
+}
+
+' Flujo Visitante
+Guest -- UC_Reg
+Guest -- UC_Login
+Guest -- UC_Recov
+Guest -- UC_Valid
+
+' Flujo Usuarios Autenticados
+Searcher -- UC_Logout
+Employer -- UC_Logout
+Admin -- UC_Logout
+
+' Lógica Interna
+UC_Reg ..> UC_SendMail : <<include>>
+UC_Recov ..> UC_SendMail : <<include>>
+UC_SendMail ..> Mail : <<sends>>
+
+note right of UC_Valid
+  **Transición:**
+  Al validar el token o hacer login,
+  el 'Visitante' se convierte en 'Usuario'.
+end note
+
+@enduml

@@ -1,0 +1,37 @@
+@startuml
+title <size:18>Módulo 4.4: Administración y Back-Office</size>
+header Proyecto CJDB
+footer Ref: ERS RF-05 - Moderación Administrativa
+' caption Figura: Panel de control para Administradores
+
+left to right direction
+skinparam packageStyle rectangle
+
+actor "Administrador" as Admin
+
+rectangle "Panel Administrativo (RF-05)" {
+  usecase "Listar Usuarios y Ofertas" as UC_List
+  usecase "Auditar Contenido" as UC_Audit
+  usecase "Ver Métricas Globales" as UC_Stats
+  
+  ' Acciones de moderación detalladas en ERS
+  usecase "Suspender Usuario" as UC_Susp
+  usecase "Dar de Baja Oferta" as UC_Remove
+}
+
+Admin -- UC_List
+Admin -- UC_Audit
+Admin -- UC_Stats
+
+' Relaciones lógicas
+UC_List <.. UC_Audit : <<extend>>
+UC_Audit <.. UC_Susp : <<extend>>
+UC_Audit <.. UC_Remove : <<extend>>
+
+note right of UC_Remove
+  **Regla de Moderación:**
+  Se eliminan ofertas fraudulentas
+  o que violen normas comunitarias
+end note
+
+@enduml

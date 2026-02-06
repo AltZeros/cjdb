@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="426px" preserveAspectRatio="none" style="width:739px;height:426px;" version="1.1" viewBox="0 0 739 426" width="739px" zoomAndPan="magnify"><defs><filter height="300%" id="fyrcs3c9r6rc0" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="73" x="654" y="9.2822">Proyecto CJDB</text><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="363" x="182" y="28.3486">Módulo 4.4: Administración y Back-Office</text><!--MD5=[6b5c155eb26b33128dfb2b4a456d3f69]
+cluster Panel Administrativo--><rect fill="#FFFFFF" filter="url(#fyrcs3c9r6rc0)" height="249" style="stroke: #000000; stroke-width: 1.5;" width="545" x="148" y="57.0938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="161" x="340" y="72.0889">Panel Administrativo</text><ellipse cx="262.6163" cy="113.317" fill="#FEFECE" filter="url(#fyrcs3c9r6rc0)" rx="94.1163" ry="21.2233" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="163" x="181.1163" y="117.9654">Listar Usuarios / Ofertas</text><ellipse cx="580.3591" cy="114.2656" fill="#FEFECE" filter="url(#fyrcs3c9r6rc0)" rx="96.3591" ry="21.6718" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="168" x="496.3591" y="118.914">Suspender / Dar de Baja</text><ellipse cx="262.3872" cy="189.8712" fill="#FEFECE" filter="url(#fyrcs3c9r6rc0)" rx="91.8872" ry="20.7774" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="158" x="183.3872" y="194.5196">Auditoría de Contenido</text><ellipse cx="262.6147" cy="268.2167" fill="#FEFECE" filter="url(#fyrcs3c9r6rc0)" rx="98.6147" ry="22.1229" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="173" x="176.1147" y="272.8651">Ver Estadísticas Globales</text><!--MD5=[97ab183161fd5d1db7fba7485cf76add]
+entity Admin--><ellipse cx="53.5" cy="159.0938" fill="#FEFECE" filter="url(#fyrcs3c9r6rc0)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M53.5,167.0938 L53.5,194.0938 M40.5,175.0938 L66.5,175.0938 M53.5,194.0938 L40.5,209.0938 M53.5,194.0938 L66.5,209.0938 " fill="none" filter="url(#fyrcs3c9r6rc0)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="95" x="6" y="227.5889">Administrador</text><path d="M483,322.5938 L483,377.9922 L678,377.9922 L678,332.5938 L668,322.5938 L483,322.5938 " fill="#FBFB77" filter="url(#fyrcs3c9r6rc0)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M668,322.5938 L668,332.5938 L678,332.5938 L668,322.5938 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="170" x="489" y="339.6606">El admin supervisa que las</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="153" x="489" y="354.7935">ofertas cumplan con las</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="163" x="489" y="369.9263">normas de la comunidad.</text><!--MD5=[9928cedbca73137156d43d89da4e1057]
+link Admin to UC_List--><path d="M101.09,167.5738 C113.6,161.8738 127.2,155.9938 140,151.0938 C160.54,143.2338 183.47,135.7438 203.82,129.5238 " fill="none" id="Admin-UC_List" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[4bd619e7a23c24a80e47a6a77b358dcf]
+link Admin to UC_Audit--><path d="M101.21,190.0938 C121.72,190.0938 146.54,190.0938 170.46,190.0938 " fill="none" id="Admin-UC_Audit" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[43160fccfb057bb54e3f7ac324203934]
+link Admin to UC_Stats--><path d="M101.18,211.8538 C113.69,217.4038 127.27,223.1838 140,228.0938 C160.51,236.0038 183.33,243.7838 203.6,250.3438 " fill="none" id="Admin-UC_Stats" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[55b9866698a0ae5d1b4645cc77d2dbeb]
+reverse link UC_List to UC_Ban--><path d="M361.8,113.4038 C400.66,113.5238 445.17,113.6638 483.78,113.7937 " fill="none" id="UC_List&lt;-UC_Ban" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="356.6,113.3838,365.5885,117.4094,361.6,113.398,365.6114,109.4095,356.6,113.3838" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="60" x="392" y="110.1606">«extend»</text><!--MD5=[7b7cc74f1b248d4397d4173426388f32]
+link UC_Audit to GMN12--><path d="M313.93,207.5738 C329.32,213.4838 346.1,220.5238 361,228.0938 C418.37,257.2537 426.47,275.3338 483,306.0938 C493.35,311.7238 504.56,317.2938 515.55,322.4738 " fill="none" id="UC_Audit-GMN12" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="372" x="177.5" y="400.5889">Figura: Funciones de moderación, auditoría y métricas</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="154" x="286.5" y="413.1729">Versión 1.0 - Control de Calidad</text><!--MD5=[744dfc2aef48d94bb78e87f35aec48af]
+@startuml
+title <size:18>Módulo 4.4: Administración y Back-Office</size>
+header Proyecto CJDB
+footer Versión 1.0 - Control de Calidad
+caption Figura: Funciones de moderación, auditoría y métricas
+
+left to right direction
+
+actor "Administrador" as Admin
+
+rectangle "Panel Administrativo" {
+  usecase "Listar Usuarios / Ofertas" as UC_List
+  usecase "Suspender / Dar de Baja" as UC_Ban
+  usecase "Auditoría de Contenido" as UC_Audit
+  usecase "Ver Estadísticas Globales" as UC_Stats
+}
+
+Admin - - UC_List
+Admin - - UC_Audit
+Admin - - UC_Stats
+
+UC_List <.. UC_Ban : <<extend>>
+
+note right of UC_Audit
+  El admin supervisa que las 
+  ofertas cumplan con las
+  normas de la comunidad.
+end note
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 06:22:07 VET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 17.0.18+8-Debian-1deb12u1
+Operating System: Linux
+Default Encoding: UTF-8
+Language: es
+Country: VE
+--></g></svg>

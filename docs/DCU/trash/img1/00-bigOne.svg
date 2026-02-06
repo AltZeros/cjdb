@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1297px" preserveAspectRatio="none" style="width:1119px;height:1297px;" version="1.1" viewBox="0 0 1119 1297" width="1119px" zoomAndPan="magnify"><defs><filter height="300%" id="f4wzoi14as51c" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="73" x="1034" y="9.2822">Proyecto CJDB</text><text fill="#000000" font-family="sans-serif" font-size="20" lengthAdjust="spacingAndGlyphs" textLength="534" x="286.5" y="30.2051">Sistema de Banco de Datos CJDB (Diagrama Maestro)</text><!--MD5=[464ccf26cf2da1d2e8de64c8c3921dc2]
+cluster Plataforma Banco de Datos CJDB--><rect fill="#FFFFFF" filter="url(#f4wzoi14as51c)" height="1117" rx="5" ry="5" style="stroke: #000000; stroke-width: 1.5;" width="637" x="197" y="114.9219"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="253" x="389" y="129.917">Plataforma Banco de Datos CJDB</text><!--MD5=[a2e4a20fbe16f9ed0cfaaf1f90f65642]
+cluster 1. Autenticación (RF-01)--><path d="M235,157.9219 L421,157.9219 A7.5,7.5 0 0 1 426,162.9219 L433,180.2188 L805,180.2188 A5,5 0 0 1 810,185.2188 L810,446.9219 A5,5 0 0 1 805,451.9219 L235,451.9219 A5,5 0 0 1 230,446.9219 L230,162.9219 A5,5 0 0 1 235,157.9219 " fill="#FFFFFF" filter="url(#f4wzoi14as51c)" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="230" x2="433" y1="180.2188" y2="180.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="190" x="234" y="172.917">1. Autenticación (RF-01)</text><!--MD5=[5ab596afd376346fc19b748a2c5380d3]
+cluster 2. Gestión Empleador (RF-02)--><path d="M229,782.9219 L456,782.9219 A7.5,7.5 0 0 1 461,787.9219 L468,805.2188 L771.5,805.2188 A5,5 0 0 1 776.5,810.2188 L776.5,1016.9219 A5,5 0 0 1 771.5,1021.9219 L229,1021.9219 A5,5 0 0 1 224,1016.9219 L224,787.9219 A5,5 0 0 1 229,782.9219 " fill="#FFFFFF" filter="url(#f4wzoi14as51c)" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="224" x2="468" y1="805.2188" y2="805.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="231" x="228" y="797.917">2. Gestión Empleador (RF-02)</text><!--MD5=[509ada0a43f975474ec4d074b21f08b9]
+cluster 3. Búsqueda y Postulación (RF-03/04)--><path d="M247,475.9219 L538,475.9219 A7.5,7.5 0 0 1 543,480.9219 L550,498.2188 L798,498.2188 A5,5 0 0 1 803,503.2188 L803,695.9219 A5,5 0 0 1 798,700.9219 L247,700.9219 A5,5 0 0 1 242,695.9219 L242,480.9219 A5,5 0 0 1 247,475.9219 " fill="#FFFFFF" filter="url(#f4wzoi14as51c)" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="242" x2="550" y1="498.2188" y2="498.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="295" x="246" y="490.917">3. Búsqueda y Postulación (RF-03/04)</text><!--MD5=[8f4b6e3b3b469e754f3a37066db892ec]
+cluster 4. Back-Office (RF-05)--><path d="M226,1045.9219 L394,1045.9219 A7.5,7.5 0 0 1 399,1050.9219 L406,1068.2188 L448,1068.2188 A5,5 0 0 1 453,1073.2188 L453,1202.9219 A5,5 0 0 1 448,1207.9219 L226,1207.9219 A5,5 0 0 1 221,1202.9219 L221,1050.9219 A5,5 0 0 1 226,1045.9219 " fill="#FFFFFF" filter="url(#f4wzoi14as51c)" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="221" x2="406" y1="1068.2188" y2="1068.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="172" x="225" y="1060.917">4. Back-Office (RF-05)</text><ellipse cx="677.9793" cy="741.8177" fill="#FEFECE" filter="url(#f4wzoi14as51c)" rx="112.4793" ry="24.8959" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="75" x="640.4793" y="734.0433">«Abstract»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="183" x="586.4793" y="750.3402">Verificar Estado 'Verificado'</text><ellipse cx="336.8614" cy="207.9455" fill="#FEFECE" filter="url(#f4wzoi14as51c)" rx="58.8614" ry="14.5236" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="79" x="297.3614" y="212.5939">Registrarse</text><ellipse cx="337.2036" cy="421.0626" fill="#FEFECE" filter="url(#f4wzoi14as51c)" rx="63.7036" ry="15.1407" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="90" x="292.2036" y="425.711">Iniciar Sesión</text><ellipse cx="336.9883" cy="276.0195" fill="#FEFECE" filter="url(#f4wzoi14as51c)" rx="80.9883" ry="18.5977" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="133" x="270.4883" y="280.668">Validar Token Email</text><ellipse cx="336.9996" cy="350.0218" fill="#FEFECE" filter="url(#f4wzoi14as51c)" rx="90.9996" ry="20.5999" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="156" x="258.9996" y="354.6702">Recuperar Contraseña</text><ellipse cx="677.7611" cy="279.9741" fill="#FEFECE" filter="url(#f4wzoi14as51c)" rx="115.7611" ry="25.5522" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="70" x="642.7611" y="271.3326">«Internal»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="196" x="579.7611" y="287.6295">Enviar Correo de Verificación</text><ellipse cx="336.8093" cy="983.6837" fill="#FEFECE" filter="url(#f4wzoi14as51c)" rx="96.8093" ry="21.7619" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="169" x="252.3093" y="988.3322">Gestionar Perfil Empresa</text><ellipse cx="337.0637" cy="834.9346" fill="#FEFECE" filter="url(#f4wzoi14as51c)" rx="73.0637" ry="17.0127" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="114" x="280.0637" y="839.5831">Publicar Vacante</text><ellipse cx="336.9128" cy="906.9044" fill="#FEFECE" filter="url(#f4wzoi14as51c)" rx="87.9128" ry="19.9826" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="149" x="262.4128" y="911.5529">Gestionar Candidatos</text><ellipse cx="677.7712" cy="906.7761" fill="#FEFECE" filter="url(#f4wzoi14as51c)" rx="82.2712" ry="18.8542" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="136" x="609.7712" y="911.4246">Descargar CV (PDF)</text><ellipse cx="336.7758" cy="526.977" fill="#FEFECE" filter="url(#f4wzoi14as51c)" rx="68.2758" ry="16.0552" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="102" x="285.7758" y="531.6255">Buscar Ofertas</text><ellipse cx="336.8678" cy="596.0954" fill="#FEFECE" filter="url(#f4wzoi14as51c)" rx="78.8678" ry="18.1736" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="128" x="272.8678" y="600.7439">Gestionar Perfil/CV</text><ellipse cx="336.8678" cy="667.0954" fill="#FEFECE" filter="url(#f4wzoi14as51c)" rx="78.8678" ry="18.1736" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="128" x="272.8678" y="671.7439">Postular a Vacante</text><ellipse cx="678.0938" cy="650.1406" fill="#FEFECE" filter="url(#f4wzoi14as51c)" rx="109.0938" ry="24.2188" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="70" x="643.0938" y="642.9066">«Internal»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="171" x="592.5938" y="659.2035">Validar Postulación Única</text><ellipse cx="336.9738" cy="1168.8166" fill="#FEFECE" filter="url(#f4wzoi14as51c)" rx="99.9738" ry="22.3948" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="176" x="248.9738" y="1173.4651">Moderar Usuarios/Ofertas</text><ellipse cx="336.8742" cy="1095.6967" fill="#FEFECE" filter="url(#f4wzoi14as51c)" rx="61.8742" ry="14.7748" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="85" x="294.3742" y="1100.3452">Ver Métricas</text><!--MD5=[9eecb807d8a7c1ba44cb916f191401d3]
+entity Guest--><ellipse cx="78" cy="318.9219" fill="#FEFECE" filter="url(#f4wzoi14as51c)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M78,326.9219 L78,353.9219 M65,334.9219 L91,334.9219 M78,353.9219 L65,368.9219 M78,353.9219 L91,368.9219 " fill="none" filter="url(#f4wzoi14as51c)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="59" x="48.5" y="387.417">Visitante</text><!--MD5=[b0178da15e77bd2872e27034dc3dd9f3]
+entity Searcher--><ellipse cx="78" cy="529.9219" fill="#FEFECE" filter="url(#f4wzoi14as51c)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M78,537.9219 L78,564.9219 M65,545.9219 L91,545.9219 M78,564.9219 L65,579.9219 M78,564.9219 L91,579.9219 " fill="none" filter="url(#f4wzoi14as51c)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="144" x="6" y="598.417">Buscador de Empleo</text><!--MD5=[e3d7fad956befb23f1a8093c12fc44a0]
+entity Employer--><ellipse cx="78" cy="839.9219" fill="#FEFECE" filter="url(#f4wzoi14as51c)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M78,847.9219 L78,874.9219 M65,855.9219 L91,855.9219 M78,874.9219 L65,889.9219 M78,874.9219 L91,889.9219 " fill="none" filter="url(#f4wzoi14as51c)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="74" x="41" y="908.417">Empleador</text><!--MD5=[97ab183161fd5d1db7fba7485cf76add]
+entity Admin--><ellipse cx="78" cy="1064.9219" fill="#FEFECE" filter="url(#f4wzoi14as51c)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M78,1072.9219 L78,1099.9219 M65,1080.9219 L91,1080.9219 M78,1099.9219 L65,1114.9219 M78,1099.9219 L91,1114.9219 " fill="none" filter="url(#f4wzoi14as51c)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="95" x="30.5" y="1133.417">Administrador</text><!--MD5=[d6e75f2a2d9b7b2a48fe909117c6250f]
+entity Mail--><ellipse cx="985" cy="256.7188" fill="#FEFECE" filter="url(#f4wzoi14as51c)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M985,264.7188 L985,291.7188 M972,272.7188 L998,272.7188 M985,291.7188 L972,306.7188 M985,291.7188 L998,306.7188 " fill="none" filter="url(#f4wzoi14as51c)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="128" x="921" y="325.2139">Sistema de Correo</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="69" x="950.5" y="243.917">«System»</text><path d="M881,719.4219 L881,737.9219 L790.84,741.9219 L881,745.9219 L881,764.8203 A5,5 0 0 0 886,769.8203 L1084,769.8203 A5,5 0 0 0 1089,764.8203 L1089,724.4219 L1079,714.4219 L886,714.4219 A5,5 0 0 0 881,719.4219 " fill="#FBFB77" filter="url(#f4wzoi14as51c)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M1079,714.4219 L1079,721.9219 A2.5,2.5 0 0 0 1081.5,724.4219 L1089,724.4219 L1079,714.4219 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="140" x="887" y="731.4888">Seguridad (RF-01):</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="171" x="887" y="746.6216">Acciones críticas requieren</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="187" x="887" y="761.7544">correo validado previamente.</text><path d="M279.5,48.4219 L279.5,93.8203 A5,5 0 0 0 284.5,98.8203 L389.5,98.8203 A5,5 0 0 0 394.5,93.8203 L394.5,53.4219 L384.5,43.4219 L284.5,43.4219 A5,5 0 0 0 279.5,48.4219 " fill="#FBFB77" filter="url(#f4wzoi14as51c)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M384.5,43.4219 L384.5,50.9219 A2.5,2.5 0 0 0 387,53.4219 L394.5,53.4219 L384.5,43.4219 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="47" x="285.5" y="60.4888">RF-02:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="90" x="285.5" y="75.6216">Incluye Logo y</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="78" x="285.5" y="90.7544">Descripción.</text><!--MD5=[2ffa435333c8f68025a7076ebd5f65e5]
+link Guest to UC_Reg--><path d="M107.6,311.6719 C127.73,287.4719 156.76,257.5319 189,239.9219 C217.08,224.5819 251.95,216.6019 280.67,212.4419 " fill="none" id="Guest-UC_Reg" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a0b9cd09cc67441be80fb366e5b2a356]
+link Guest to UC_Login--><path d="M107.67,360.8119 C129.71,368.9419 161.01,379.9719 189,387.9219 C221.46,397.1419 258.53,405.4519 287.33,411.4219 " fill="none" id="Guest-UC_Login" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3c60312cd9e49501e6725b4bf496b2e2]
+link Guest to UC_Search--><path d="M107.88,380.9119 C129.01,402.4919 159.11,431.0419 189,451.9219 C225.41,477.3519 271.62,499.4819 302.41,512.9819 " fill="none" id="Guest-UC_Search" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[cd23b3c49846b71eb5f050b7fcabe87d]
+link Guest to UC_Recov--><path d="M107.98,349.9219 C141.26,349.9219 197.48,349.9219 245.77,349.9219 " fill="none" id="Guest-UC_Recov" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[4e47cf70684ca26ff4a6846563dd4f11]
+link Guest to UC_Valid--><path d="M107.71,339.1819 C129.77,331.1419 161.09,320.1419 189,311.9219 C218.24,303.3119 251.16,295.1119 278.43,288.7219 " fill="none" id="Guest-UC_Valid" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[63bae71c7a83327e0c594ce455270a45]
+link Searcher to UC_CandProfile--><path d="M150.25,570.6219 C187.24,575.6619 232.18,581.7819 268.6,586.7419 " fill="none" id="Searcher-UC_CandProfile" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[9da6c482d640a9b2ef0e468bd74f89d3]
+link Searcher to UC_Apply--><path d="M134.99,601.5119 C151.74,612.2619 170.58,623.0619 189,630.9219 C215.58,642.2719 246.46,650.5119 273.04,656.2219 " fill="none" id="Searcher-UC_Apply" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ec01f499d21d367f7b0334fe3ea4074b]
+link Searcher to UC_Search--><path d="M150.25,551.4919 C190.06,546.2319 239.09,539.7419 276.77,534.7619 " fill="none" id="Searcher-UC_Search" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[bc689529ab79ed0ebd91c0cc98eef426]
+link Searcher to UC_Login--><path d="M144.85,520.3319 C159.28,511.7419 174.56,502.8719 189,494.9219 C229.67,472.5219 277.94,448.7419 307.77,434.3619 " fill="none" id="Searcher-UC_Login" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[5f961ba545f38e6b3d40a33205008f9a]
+link Employer to UC_CorpProfile--><path d="M115.44,899.4119 C136.07,914.4019 162.91,932.0919 189,943.9219 C212.61,954.6319 239.68,963.0019 264.11,969.2519 " fill="none" id="Employer-UC_CorpProfile" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ccb73653af8b3ed176d6d59dfef6f450]
+link Employer to UC_JobCreate--><path d="M115.01,865.8819 C156.17,860.1119 224.28,850.5719 274.03,843.6019 " fill="none" id="Employer-UC_JobCreate" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0c1f70f9dacace5f6fc3840fb62c9bcc]
+link Employer to UC_JobManage--><path d="M115.01,875.9619 C152.86,881.2719 213.49,889.7619 261.67,896.5119 " fill="none" id="Employer-UC_JobManage" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[477ecc63f7f56216d8ba78562622cff3]
+link Employer to UC_Login--><path d="M90.48,830.1019 C117.55,734.0919 183.48,501.5519 189,494.9219 C216.06,462.4319 260.97,442.7719 294.04,431.9719 " fill="none" id="Employer-UC_Login" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[813f5eb67c6487570499e0485e69000a]
+link Admin to UC_Mod--><path d="M125.53,1109.5819 C145.11,1115.3019 168.15,1121.9819 189,1127.9219 C216.52,1135.7619 246.98,1144.2819 273.01,1151.5219 " fill="none" id="Admin-UC_Mod" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[43160fccfb057bb54e3f7ac324203934]
+link Admin to UC_Stats--><path d="M125.54,1095.9219 C167.34,1095.9219 229.01,1095.9219 274.8,1095.9219 " fill="none" id="Admin-UC_Stats" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[89e4a812854ba76026a29176233e400d]
+link Admin to UC_Login--><path d="M100.52,1055.3119 C116.99,1022.2419 138.73,973.8419 150,928.9219 C155.89,905.4419 175.39,514.9419 189,494.9219 C212.37,460.5419 256.66,441.3419 290.54,431.1619 " fill="none" id="Admin-UC_Login" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[5e9bbe1128f98813b04e700380728c36]
+link UC_Reg to UC_SendEmail--><path d="M382.32,217.3319 C434.53,228.4219 522.55,247.1219 588.82,261.1919 " fill="none" id="UC_Reg-&gt;UC_SendEmail" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="593.96,262.2819,585.9898,256.496,589.0695,261.241,584.3245,264.3208,593.96,262.2819" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="61" x="470" y="233.9888">«include»</text><!--MD5=[997c5cbafd7a94169b80d79e3fad01a3]
+link UC_Recov to UC_SendEmail--><path d="M404.57,336.1719 C456.89,325.3719 530.26,310.2219 587.67,298.3619 " fill="none" id="UC_Recov-&gt;UC_SendEmail" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="592.83,297.3019,583.206,295.2092,587.9338,298.3154,584.8276,303.0431,592.83,297.3019" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="61" x="470" y="306.9888">«include»</text><!--MD5=[952f40a420629e757dc9b9a8230732c3]
+link UC_SendEmail to Mail--><path d="M794.31,279.9219 C837.16,279.9219 884.18,279.9219 920.68,279.9219 " fill="none" id="UC_SendEmail-Mail" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d2d0faf01efbc4183355fb77999517f9]
+link UC_JobCreate to UC_CheckStatus--><path d="M385.14,821.9919 C441.08,806.6419 535.1,780.8519 601.28,762.6919 " fill="none" id="UC_JobCreate-&gt;UC_CheckStatus" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="606.39,761.2919,596.6543,759.8033,601.5665,762.6087,598.7612,767.5209,606.39,761.2919" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="61" x="470" y="778.9888">«include»</text><!--MD5=[c2b171c245b657fc09ceb8c4b090ef07]
+link UC_Apply to UC_CheckStatus--><path d="M394.36,679.3919 C448.38,691.3419 530.62,709.5419 592.49,723.2219 " fill="none" id="UC_Apply-&gt;UC_CheckStatus" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="597.65,724.3719,589.7357,718.5098,592.7697,723.2842,587.9954,726.3183,597.65,724.3719" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="61" x="470" y="693.9888">«include»</text><!--MD5=[44cd79ac42fdaa4825a6fdd40e3ee39d]
+link UC_Apply to UC_Unique--><path d="M414.5,663.0819 C459.34,660.8419 516.76,657.9619 566.45,655.4619 " fill="none" id="UC_Apply-&gt;UC_Unique" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="571.54,655.2119,562.3464,651.6794,566.5466,655.4687,562.7573,659.6688,571.54,655.2119" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="61" x="470" y="653.9888">«include»</text><!--MD5=[23a2c39856e2b85d19ecd3863c955783]
+reverse link UC_JobManage to UC_DownCV--><path d="M427.31,912.3319 C441.26,912.9919 455.52,913.5619 469,913.9219 C511.62,915.0619 559.14,913.6619 597.99,911.8219 " fill="none" id="UC_JobManage&lt;-UC_DownCV" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="422.19,912.0819,430.9974,916.4899,427.1848,912.3109,431.3637,908.4982,422.19,912.0819" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="60" x="470.5" y="909.9888">«extend»</text><!--MD5=[fdfb47b857876284be9c74bd4b91b7ea]
+link UC_CorpProfile to GMN54--><path d="M243.3,977.9519 C212.33,970.4419 182.47,955.4819 169.5,926.4219 C152.93,889.2819 152.93,231.5619 169.5,194.4219 C190.41,147.5719 239.66,114.6919 279.37,94.7119 " fill="none" id="UC_CorpProfile-GMN54" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="400" x="353.5" y="1270.917">Vista completa de todos los módulos y actores integrados</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="238" x="434.5" y="1283.501">Versión Final 2.0 - Consolidada según ERS y ACP</text><!--MD5=[22a24a8ee0e92c3abb8508f5cd4980e7]
+@startuml
+title <size:20>Sistema de Banco de Datos CJDB (Diagrama Maestro)</size>
+header Proyecto CJDB
+footer Versión Final 2.0 - Consolidada según ERS y ACP
+caption Vista completa de todos los módulos y actores integrados
+
+left to right direction
+skinparam packageStyle rectangle
+skinparam roundcorner 10
+
+actor "Visitante" as Guest
+actor "Buscador de Empleo" as Searcher
+actor "Empleador" as Employer
+actor "Administrador" as Admin
+actor "Sistema de Correo" as Mail <<System>>
+
+rectangle "Plataforma Banco de Datos CJDB" {
+
+    package "1. Autenticación (RF-01)" {
+        usecase "Registrarse" as UC_Reg
+        usecase "Iniciar Sesión" as UC_Login
+        usecase "Validar Token Email" as UC_Valid
+        usecase "Recuperar Contraseña" as UC_Recov
+        usecase "Enviar Correo de Verificación" as UC_SendEmail <<Internal>>
+    }
+
+    package "2. Gestión Empleador (RF-02)" {
+        usecase "Gestionar Perfil Empresa" as UC_CorpProfile
+        usecase "Publicar Vacante" as UC_JobCreate
+        usecase "Gestionar Candidatos" as UC_JobManage
+        usecase "Descargar CV (PDF)" as UC_DownCV
+    }
+
+    package "3. Búsqueda y Postulación (RF-03/04)" {
+        usecase "Buscar Ofertas" as UC_Search
+        usecase "Gestionar Perfil/CV" as UC_CandProfile
+        usecase "Postular a Vacante" as UC_Apply
+        usecase "Validar Postulación Única" as UC_Unique <<Internal>>
+    }
+
+    package "4. Back-Office (RF-05)" {
+        usecase "Moderar Usuarios/Ofertas" as UC_Mod
+        usecase "Ver Métricas" as UC_Stats
+    }
+
+    usecase "Verificar Estado 'Verificado'" as UC_CheckStatus <<Abstract>>
+}
+
+
+Guest - - UC_Reg
+Guest - - UC_Login
+Guest - - UC_Search
+Guest - - UC_Recov
+Guest - - UC_Valid
+
+Searcher - - UC_CandProfile
+Searcher - - UC_Apply
+Searcher - - UC_Search
+Searcher - - UC_Login
+
+Employer - - UC_CorpProfile
+Employer - - UC_JobCreate
+Employer - - UC_JobManage
+Employer - - UC_Login
+
+Admin - - UC_Mod
+Admin - - UC_Stats
+Admin - - UC_Login
+
+
+UC_Reg ..> UC_SendEmail : <<include>>
+UC_Recov ..> UC_SendEmail : <<include>>
+UC_SendEmail - - Mail
+
+UC_JobCreate ..> UC_CheckStatus : <<include>>
+UC_Apply ..> UC_CheckStatus : <<include>>
+UC_Apply ..> UC_Unique : <<include>>
+
+UC_JobManage <.. UC_DownCV : <<extend>>
+
+note right of UC_CheckStatus
+  **Seguridad (RF-01):**
+  Acciones críticas requieren
+  correo validado previamente.
+end note
+
+note bottom of UC_CorpProfile
+  **RF-02:**
+  Incluye Logo y 
+  Descripción.
+end note
+
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 06:22:07 VET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 17.0.18+8-Debian-1deb12u1
+Operating System: Linux
+Default Encoding: UTF-8
+Language: es
+Country: VE
+--></g></svg>

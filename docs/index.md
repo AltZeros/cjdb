@@ -18,6 +18,9 @@ Este repositorio contiene los artefactos formales de ingeniería del proyecto (A
 
 **Última actualización:** 3 de febrero de 2026
 
+
+ 📄 **[Diagramas de caso de uso](/DCU/DIAGRAMAS_CASOS_USO_CJDB.md)** 
+
 ---
 
 ## Estructura de la documentación

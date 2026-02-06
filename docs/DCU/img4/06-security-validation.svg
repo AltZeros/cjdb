@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="486px" preserveAspectRatio="none" style="width:1191px;height:486px;" version="1.1" viewBox="0 0 1191 486" width="1191px" zoomAndPan="magnify"><defs><filter height="300%" id="fqt1ohmis99xq" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="73" x="1106" y="9.2822">Proyecto CJDB</text><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="352" x="413.5" y="28.3486">Vista de Seguridad y Reglas de Negocio</text><!--MD5=[625255fcc700bd437a07d7bc652fa778]
+cluster Sistema de Verificación de Identidad (RF-01)--><rect fill="#FFFFFF" filter="url(#fqt1ohmis99xq)" height="267" style="stroke: #000000; stroke-width: 1.5;" width="819" x="112" y="112.0938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="350" x="346.5" y="127.0889">Sistema de Verificación de Identidad (RF-01)</text><ellipse cx="489.8797" cy="328.2697" fill="#FEFECE" filter="url(#fqt1ohmis99xq)" rx="73.8797" ry="17.1759" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="116" x="431.8797" y="332.9181">Registrar Cuenta</text><ellipse cx="208.9883" cy="237.1914" fill="#FEFECE" filter="url(#fqt1ohmis99xq)" rx="80.9883" ry="18.5977" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="133" x="142.4883" y="241.8398">Validar Token Email</text><ellipse cx="800.7652" cy="338.2468" fill="#FEFECE" filter="url(#fqt1ohmis99xq)" rx="113.7652" ry="25.153" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="206" x="697.7652" y="342.8952">Reenviar Correo de Validación</text><ellipse cx="800.9496" cy="254.0837" fill="#FEFECE" filter="url(#fqt1ohmis99xq)" rx="105.4496" ry="23.4899" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="188" x="706.9496" y="258.7321">Publicar Oferta (Empleador)</text><ellipse cx="801.209" cy="171.1355" fill="#FEFECE" filter="url(#fqt1ohmis99xq)" rx="108.209" ry="24.0418" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="194" x="704.209" y="175.784">Postular a Oferta (Buscador)</text><path d="M130,290.5938 L130,315.7266 A0,0 0 0 0 130,315.7266 L288,315.7266 A0,0 0 0 0 288,315.7266 L288,314.0938 L420.89,321.9938 L288,306.0938 L288,300.5938 L278,290.5938 L130,290.5938 A0,0 0 0 0 130,290.5938 " fill="#FBFB77" filter="url(#fqt1ohmis99xq)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M278,290.5938 L278,300.5938 L288,300.5938 L278,290.5938 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="137" x="136" y="307.6606">Estado: No Verificado</text><path d="M422,224.5938 L422,249.7266 L558,249.7266 L558,234.5938 L548,224.5938 L422,224.5938 " fill="#FBFB77" filter="url(#fqt1ohmis99xq)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M548,224.5938 L548,234.5938 L558,234.5938 L548,224.5938 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="115" x="428" y="241.6606">Estado: Verificado</text><!--MD5=[9eecb807d8a7c1ba44cb916f191401d3]
+entity Guest--><ellipse cx="35.5" cy="318.0938" fill="#FEFECE" filter="url(#fqt1ohmis99xq)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M35.5,326.0938 L35.5,353.0938 M22.5,334.0938 L48.5,334.0938 M35.5,353.0938 L22.5,368.0938 M35.5,353.0938 L48.5,368.0938 " fill="none" filter="url(#fqt1ohmis99xq)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="59" x="6" y="386.5889">Visitante</text><!--MD5=[d6e75f2a2d9b7b2a48fe909117c6250f]
+entity Mail--><ellipse cx="1097" cy="314.8906" fill="#FEFECE" filter="url(#fqt1ohmis99xq)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M1097,322.8906 L1097,349.8906 M1084,330.8906 L1110,330.8906 M1097,349.8906 L1084,364.8906 M1097,349.8906 L1110,364.8906 " fill="none" filter="url(#fqt1ohmis99xq)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="128" x="1033" y="383.3857">Sistema de Correo</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="69" x="1062.5" y="302.0889">«System»</text><path d="M698,398.5938 L698,453.9922 L904,453.9922 L904,408.5938 L894,398.5938 L698,398.5938 " fill="#FBFB77" filter="url(#fqt1ohmis99xq)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M894,398.5938 L894,408.5938 L904,408.5938 L894,398.5938 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="138" x="704" y="415.6606">Acceso Denegado:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="185" x="704" y="430.7935">Si el correo no está validado,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="185" x="704" y="445.9263">esta función está bloqueada.</text><path d="M700,40.5938 L700,95.9922 A0,0 0 0 0 700,95.9922 L797,95.9922 L801,146.9538 L805,95.9922 L902,95.9922 A0,0 0 0 0 902,95.9922 L902,50.5938 L892,40.5938 L700,40.5938 A0,0 0 0 0 700,40.5938 " fill="#FBFB77" filter="url(#fqt1ohmis99xq)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M892,40.5938 L892,50.5938 L902,50.5938 L892,40.5938 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="138" x="706" y="57.6606">Acceso Denegado:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="177" x="706" y="72.7935">Requiere estado 'Verificado'</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="181" x="706" y="87.9263">para ejecutar la postulación.</text><!--MD5=[2ffa435333c8f68025a7076ebd5f65e5]
+link Guest to UC_Reg--><path d="M65.15,347.7638 C134.99,344.5238 315.72,336.1338 417.18,331.4238 " fill="none" id="Guest-UC_Reg" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ea7b725aa2db5fac8fc54f31f5a9833b]
+link Guest to UC_Token--><path d="M65.13,309.3538 C76.09,296.3638 89.47,282.7938 104,273.0938 C118.62,263.3338 136.16,255.9338 152.64,250.4638 " fill="none" id="Guest-UC_Token" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[eee85338e26c9caf1faeba990d8140dc]
+link UC_Reg to UC_Resend--><path d="M563.45,330.4338 C598.96,331.5838 642.61,333.0037 682.71,334.2938 " fill="none" id="UC_Reg-&gt;UC_Resend" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="688.09,334.4738,679.2323,330.1677,683.0929,334.3024,678.9582,338.163,688.09,334.4738" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="61" x="595" y="328.1606">«include»</text><!--MD5=[6b7a9b967803be61134ce4510a6679cb]
+link UC_Resend to Mail--><path d="M915.25,338.0938 C953.17,338.0938 994.27,338.0938 1027.68,338.0938 " fill="none" id="UC_Resend-&gt;Mail" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="1032.97,338.0938,1023.97,334.0938,1027.97,338.0938,1023.97,342.0938,1032.97,338.0938" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="54" x="948" y="334.1606">«sends»</text><!--MD5=[978eb38693eaf2946301969f07abf7fe]
+link UC_Token to N_Verified--><path d="M290.32,237.0938 C330.23,237.0938 378.06,237.0938 416.79,237.0938 " fill="none" id="UC_Token-&gt;N_Verified" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="421.95,237.0938,412.95,233.0938,416.95,237.0938,412.95,241.0938,421.95,237.0938" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="64" x="321" y="233.1606">«creates»</text><!--MD5=[e621f1b57808d5951857f35b89883ff2]
+link N_Verified to UC_Post--><path d="M558.05,240.7838 C599.05,243.0338 652.31,245.9638 698.41,248.5038 " fill="none" id="N_Verified-UC_Post" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[86ec78b29533db0e43f56df04d0b080d]
+link N_Verified to UC_Apply--><path d="M549.85,224.5238 C598.79,214.0738 668.84,199.1038 722.37,187.6737 " fill="none" id="N_Verified-UC_Apply" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[b7a0559d3f78656c98e4114fe266cb40]
+link GMN20 to UC_Post--><path d="M697.79,410.5938 C669.77,401.1338 642.5,385.9538 625.5,361.5938 C613.04,343.7338 612.77,330.2638 625.5,312.5938 C644.09,286.8038 674.55,272.2038 704.92,264.0137 " fill="none" id="GMN20-UC_Post" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="186" x="496.5" y="472.876">Ref: ERS RF-01 - Gestión de Identidad</text><!--MD5=[0026b42212f6d13b626e47998cafbfc8]
+@startuml
+title <size:18>Vista de Seguridad y Reglas de Negocio</size>
+header Proyecto CJDB
+footer Ref: ERS RF-01 - Gestión de Identidad
+
+left to right direction
+skinparam packageStyle rectangle
+skinparam packageStyle rectangle
+
+actor "Visitante" as Guest << (N, #FFAAAA) >>
+actor "Sistema de Correo" as Mail <<System>>
+
+rectangle "Sistema de Verificación de Identidad (RF-01)" {
+    usecase "Registrar Cuenta" as UC_Reg
+    usecase "Validar Token Email" as UC_Token
+    usecase "Reenviar Correo de Validación" as UC_Resend
+    
+    usecase "Publicar Oferta (Empleador)" as UC_Post
+    usecase "Postular a Oferta (Buscador)" as UC_Apply
+
+    note "Estado: No Verificado" as N_NotVerified
+    note "Estado: Verificado" as N_Verified
+}
+
+Guest - - UC_Reg
+Guest - - UC_Token
+UC_Reg ..> UC_Resend : <<include>>
+UC_Resend ..> Mail : <<sends>>
+
+UC_Token ..> N_Verified : <<creates>>
+
+N_Verified - - UC_Post
+N_Verified - - UC_Apply
+
+N_NotVerified - - UC_Reg
+
+note top of UC_Post
+  **Acceso Denegado:**
+  Si el correo no está validado,
+  esta función está bloqueada.
+end note
+
+note bottom of UC_Apply
+  **Acceso Denegado:**
+  Requiere estado 'Verificado'
+  para ejecutar la postulación.
+end note
+
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 06:22:07 VET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 17.0.18+8-Debian-1deb12u1
+Operating System: Linux
+Default Encoding: ANSI_X3.4-1968
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,54 @@
+@startuml
+title <size:18>Vista de Seguridad y Reglas de Negocio</size>
+header Proyecto CJDB
+footer Ref: ERS RF-01 - Gestión de Identidad
+' caption Figura: Diagrama de impacto de la validación de correo (Token)
+
+left to right direction
+skinparam packageStyle rectangle
+skinparam packageStyle rectangle
+
+actor "Visitante" as Guest << (N, #FFAAAA) >>
+actor "Sistema de Correo" as Mail <<System>>
+
+rectangle "Sistema de Verificación de Identidad (RF-01)" {
+    usecase "Registrar Cuenta" as UC_Reg
+    usecase "Validar Token Email" as UC_Token
+    usecase "Reenviar Correo de Validación" as UC_Resend
+    
+    usecase "Publicar Oferta (Empleador)" as UC_Post
+    usecase "Postular a Oferta (Buscador)" as UC_Apply
+
+    note "Estado: No Verificado" as N_NotVerified
+    note "Estado: Verificado" as N_Verified
+}
+
+' Flujo de Verificación
+Guest -- UC_Reg
+Guest -- UC_Token
+UC_Reg ..> UC_Resend : <<include>>
+UC_Resend ..> Mail : <<sends>>
+
+' Transición de Estado
+UC_Token ..> N_Verified : <<creates>>
+
+' Conexión a estado
+N_Verified -- UC_Post
+N_Verified -- UC_Apply
+
+' Mostrar estado no verificado
+N_NotVerified -- UC_Reg
+
+note top of UC_Post
+  **Acceso Denegado:**
+  Si el correo no está validado,
+  esta función está bloqueada.
+end note
+
+note bottom of UC_Apply
+  **Acceso Denegado:**
+  Requiere estado 'Verificado'
+  para ejecutar la postulación.
+end note
+
+@enduml

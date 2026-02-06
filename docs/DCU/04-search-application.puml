@@ -1,0 +1,55 @@
+@startuml
+title <size:18>Módulo 4.3: Búsqueda y Postulación</size>
+header Proyecto CJDB
+footer Ref: ERS RF-03 y RF-04
+' caption Figura: Flujo del Buscador de Empleo con restricciones técnicas
+
+left to right direction
+
+actor "Buscador de Empleo" as Searcher
+actor "Sistema de Correo" as Mail <<System>>
+
+rectangle "Sistema de Postulación (RF-03/04)" {
+  usecase "Buscar Ofertas" as UC_Search
+  usecase "Filtrar (Categoría/Salario)" as UC_Filter
+  usecase "Ver Detalle de Oferta" as UC_View
+  
+  usecase "Gestionar Perfil" as UC_Profile
+  usecase "Cargar/Actualizar CV" as UC_CV
+  
+  usecase "Postular a Vacante" as UC_Apply
+  usecase "Validar Postulación Única" as UC_Unique <<Internal>>
+  usecase "Verificar Email Validado" as UC_Check <<Abstract>>
+  usecase "Notificar Postulación" as UC_Notify <<Internal>>
+}
+
+Searcher -- UC_Search
+Searcher -- UC_Profile
+Searcher -- UC_View
+
+' Relaciones de Búsqueda
+UC_Search <.. UC_Filter : <<extend>>
+UC_View <.. UC_Apply : <<extend>>
+
+' Relaciones de Perfil
+UC_Profile <.. UC_CV : <<extend>>
+
+' Lógica de Postulación Robusta
+UC_Apply ..> UC_Check : <<include>>
+UC_Apply ..> UC_Unique : <<include>>
+UC_Apply ..> UC_Notify : <<include>>
+UC_Notify ..> Mail : <<sends>>
+
+note bottom of UC_CV
+  **Restricción Técnica (RF-03):**
+  - Solo formato PDF
+  - Máximo 5 MB
+end note
+
+note right of UC_Unique
+  **Validación de Negocio (RF-04):**
+  Evita que un usuario se postule
+  dos veces a la misma oferta.
+end note
+
+@enduml

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="489px" preserveAspectRatio="none" style="width:886px;height:489px;" version="1.1" viewBox="0 0 886 489" width="886px" zoomAndPan="magnify"><defs><filter height="300%" id="f7f4fkdg1wfqp" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="73" x="801" y="9.2822">Proyecto CJDB</text><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="342" x="266" y="28.3486">Módulo 4.1: Autenticación y Seguridad</text><!--MD5=[9a36ec8286e0a6404ec5d1f85c8dc34f]
+cluster Módulo Auth--><rect fill="#FFFFFF" filter="url(#f7f4fkdg1wfqp)" height="368" style="stroke: #000000; stroke-width: 1.5;" width="504" x="177" y="56.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="99" x="379.5" y="71.5889">Módulo Auth</text><ellipse cx="283.8797" cy="108.7697" fill="#FEFECE" filter="url(#f7f4fkdg1wfqp)" rx="73.8797" ry="17.1759" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="116" x="225.8797" y="113.4181">Registrar Cuenta</text><ellipse cx="283.7932" cy="180.5524" fill="#FEFECE" filter="url(#f7f4fkdg1wfqp)" rx="85.2932" ry="19.4586" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="143" x="212.2932" y="185.2008">Validar Email (Token)</text><ellipse cx="284.2036" cy="250.7345" fill="#FEFECE" filter="url(#f7f4fkdg1wfqp)" rx="63.7036" ry="15.1407" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="90" x="239.2036" y="255.3829">Iniciar Sesión</text><ellipse cx="283.8237" cy="316.4585" fill="#FEFECE" filter="url(#f7f4fkdg1wfqp)" rx="64.8237" ry="15.3647" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="93" x="237.3237" y="321.1069">Cerrar Sesión</text><ellipse cx="283.9996" cy="387.6937" fill="#FEFECE" filter="url(#f7f4fkdg1wfqp)" rx="90.9996" ry="20.5999" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="156" x="205.9996" y="392.3421">Recuperar Contraseña</text><ellipse cx="581.5607" cy="215.7694" fill="#FEFECE" filter="url(#f7f4fkdg1wfqp)" rx="83.5607" ry="24.1756" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="70" x="546.5607" y="209.4935">«Internal»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="124" x="519.5607" y="225.7904">Enviar Notificación</text><!--MD5=[fee662a292a0353a69bd162820bae93b]
+entity User--><ellipse cx="68" cy="219.5938" fill="#FEFECE" filter="url(#f7f4fkdg1wfqp)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M68,227.5938 L68,254.5938 M55,235.5938 L81,235.5938 M68,254.5938 L55,269.5938 M68,254.5938 L81,269.5938 " fill="none" filter="url(#f7f4fkdg1wfqp)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="124" x="6" y="288.0889">Usuario / Visitante</text><!--MD5=[d6e75f2a2d9b7b2a48fe909117c6250f]
+entity Mail--><ellipse cx="792" cy="192.3906" fill="#FEFECE" filter="url(#f7f4fkdg1wfqp)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M792,200.3906 L792,227.3906 M779,208.3906 L805,208.3906 M792,227.3906 L779,242.3906 M792,227.3906 L805,242.3906 " fill="none" filter="url(#f7f4fkdg1wfqp)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="128" x="728" y="260.8857">Sistema de Correo</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="69" x="757.5" y="179.5889">«System»</text><!--MD5=[612c49047cf09948a08fadffed230ff1]
+link User to UC_Reg--><path d="M98.3,210.0338 C116.4,187.5938 141.4,160.8438 169,143.5938 C186.56,132.6237 207.79,124.8838 227.15,119.5238 " fill="none" id="User-UC_Reg" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[afd46a07887682eaf6a6084cd41255e7]
+link User to UC_Valid--><path d="M130.06,230.3938 C142.92,226.1538 156.4,221.7138 169,217.5938 C190.26,210.6338 213.77,202.9938 233.88,196.4738 " fill="none" id="User-UC_Valid" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[5cb7f0650a0a8aaa9b7a995609fd3cc2]
+link User to UC_Login--><path d="M130.04,250.5938 C158.33,250.5938 191.91,250.5938 220.39,250.5938 " fill="none" id="User-UC_Login" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[c74c979237da97ea0b4bfaf42f0faca8]
+link User to UC_Logout--><path d="M130.02,270.3338 C142.88,274.4338 156.37,278.6938 169,282.5938 C193.27,290.0938 220.54,298.2338 242.31,304.6738 " fill="none" id="User-UC_Logout" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[90066c0da57328ed5a3a6af3c3511fca]
+link User to UC_Recov--><path d="M102.09,291.2338 C120.1,311.1538 143.82,334.1138 169,349.5938 C184.91,359.3738 203.63,366.9538 221.25,372.6838 " fill="none" id="User-UC_Recov" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[5e374d3dead7f974ba2e36f4d8e81ce3]
+link UC_Reg to UC_SendMail--><path d="M324.55,122.9138 C375.79,141.4638 465.47,173.9438 523.92,195.1038 " fill="none" id="UC_Reg-&gt;UC_SendMail" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="528.77,196.8638,521.6855,190.022,524.0727,195.1505,518.9442,197.5376,528.77,196.8638" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="61" x="406" y="148.6606">«include»</text><!--MD5=[e36dc0a2d1ef364a93818b67ee066f7d]
+link UC_Recov to UC_SendMail--><path d="M331.06,370.0037 C345.39,364.0338 361.07,356.9938 375,349.5938 C437.59,316.3138 505.66,269.6738 545.62,241.1038 " fill="none" id="UC_Recov-&gt;UC_SendMail" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="549.88,238.0538,540.2367,240.0556,545.8191,240.9708,544.9039,246.5531,549.88,238.0538" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="61" x="406" y="290.6606">«include»</text><!--MD5=[a1aabe95b606cbc79735d8502911b13c]
+link UC_SendMail to Mail--><path d="M665.2,215.5938 C686.01,215.5938 708.01,215.5938 727.7,215.5938 " fill="none" id="UC_SendMail-Mail" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="417" x="228.5" y="463.5889">Figura: Casos de uso para el Requerimiento Funcional RF-01</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="189" x="342.5" y="476.1729">Versión 1.0 - Analista: Edith Hernández</text><!--MD5=[1ee558ae29543fdec386c10f2586c2dc]
+@startuml
+title <size:18>Módulo 4.1: Autenticación y Seguridad</size>
+header Proyecto CJDB
+footer Versión 1.0 - Analista: Edith Hernández
+caption Figura: Casos de uso para el Requerimiento Funcional RF-01
+
+left to right direction
+skinparam packageStyle rectangle
+
+actor "Usuario / Visitante" as User
+actor "Sistema de Correo" as Mail <<System>>
+
+rectangle "Módulo Auth" {
+  usecase "Registrar Cuenta" as UC_Reg
+  usecase "Validar Email (Token)" as UC_Valid
+  usecase "Iniciar Sesión" as UC_Login
+  usecase "Cerrar Sesión" as UC_Logout
+  usecase "Recuperar Contraseña" as UC_Recov
+  usecase "Enviar Notificación" as UC_SendMail <<Internal>>
+}
+
+User - - UC_Reg
+User - - UC_Valid
+User - - UC_Login
+User - - UC_Logout
+User - - UC_Recov
+
+UC_Reg ..> UC_SendMail : <<include>>
+UC_Recov ..> UC_SendMail : <<include>>
+UC_SendMail - - Mail
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 06:22:07 VET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 17.0.18+8-Debian-1deb12u1
+Operating System: Linux
+Default Encoding: UTF-8
+Language: es
+Country: VE
+--></g></svg>

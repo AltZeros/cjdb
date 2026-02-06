@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="374px" preserveAspectRatio="none" style="width:994px;height:374px;" version="1.1" viewBox="0 0 994 374" width="994px" zoomAndPan="magnify"><defs><filter height="300%" id="flm595sodbvmq" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="73" x="909" y="9.2822">Proyecto CJDB</text><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="366" x="308" y="28.3486">Módulo 4.2: Gestión de Ofertas Laborales</text><!--MD5=[8251d7fc902bed9ab976afe39a6076b2]
+cluster Employer Dashboard--><rect fill="#FFFFFF" filter="url(#flm595sodbvmq)" height="227" style="stroke: #000000; stroke-width: 1.5;" width="820.5" x="127" y="57.0938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="163" x="455.75" y="72.0889">Employer Dashboard</text><ellipse cx="226.9975" cy="107.9932" fill="#FEFECE" filter="url(#flm595sodbvmq)" rx="67.4975" ry="15.8995" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="100" x="176.9975" y="112.6417">Publicar Oferta</text><ellipse cx="226.9934" cy="178.2924" fill="#FEFECE" filter="url(#flm595sodbvmq)" rx="83.9934" ry="19.1987" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="140" x="156.9934" y="182.9409">Editar / Cerrar Oferta</text><ellipse cx="227.1884" cy="249.9314" fill="#FEFECE" filter="url(#flm595sodbvmq)" rx="77.1884" ry="17.8377" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="124" x="165.1884" y="254.5799">Ver Postulaciones</text><ellipse cx="526.7771" cy="233.0492" fill="#FEFECE" filter="url(#flm595sodbvmq)" rx="92.7771" ry="20.9554" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="160" x="446.7771" y="237.6976">Ver Perfil de Postulante</text><ellipse cx="848.7712" cy="239.948" fill="#FEFECE" filter="url(#flm595sodbvmq)" rx="82.2712" ry="18.8542" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="136" x="780.7712" y="244.5964">Descargar CV (PDF)</text><ellipse cx="526.88" cy="116.948" fill="#FEFECE" filter="url(#flm595sodbvmq)" rx="69.38" ry="24.8543" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="75" x="489.38" y="111.7121">«Abstract»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="99" x="477.38" y="128.009">Validar Cuenta</text><!--MD5=[e3d7fad956befb23f1a8093c12fc44a0]
+entity Employer--><ellipse cx="43" cy="147.0938" fill="#FEFECE" filter="url(#flm595sodbvmq)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M43,155.0938 L43,182.0938 M30,163.0938 L56,163.0938 M43,182.0938 L30,197.0938 M43,182.0938 L56,197.0938 " fill="none" filter="url(#flm595sodbvmq)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="74" x="6" y="215.5889">Empleador</text><path d="M742,300.5938 L742,325.7266 A0,0 0 0 0 742,325.7266 L956,325.7266 A0,0 0 0 0 956,325.7266 L956,310.5938 L946,300.5938 L853,300.5938 L849,259.4538 L845,300.5938 L742,300.5938 A0,0 0 0 0 742,300.5938 " fill="#FBFB77" filter="url(#flm595sodbvmq)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M946,300.5938 L946,310.5938 L956,310.5938 L946,300.5938 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="193" x="748" y="317.6606">Restricción: Solo formato PDF.</text><!--MD5=[7305e06c9077614e445fbabd2daf6862]
+link Employer to UC_Create--><path d="M80.09,158.8438 C92.26,152.7438 106.05,146.2438 119,141.0938 C139.23,133.0438 162.24,125.7238 181.72,120.0338 " fill="none" id="Employer-UC_Create" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[43d60a3a95722111d842c3bba809abd9]
+link Employer to UC_Edit--><path d="M80.39,178.0938 C98.34,178.0938 120.78,178.0938 142.63,178.0938 " fill="none" id="Employer-UC_Edit" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[46d9ea00051dc892bed58860cf779dd7]
+link Employer to UC_ViewApp--><path d="M80.22,196.5838 C92.4,202.5038 106.15,208.8738 119,214.0938 C138.52,222.0238 160.51,229.6438 179.46,235.8138 " fill="none" id="Employer-UC_ViewApp" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[027964b5e3458fca136eab7038090342]
+link UC_Create to UC_Check--><path d="M294.14,110.0938 C341.04,111.5038 404,113.4138 452.48,114.8738 " fill="none" id="UC_Create-&gt;UC_Check" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="457.72,115.0338,448.8501,110.753,452.7225,114.8767,448.5988,118.7491,457.72,115.0338" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="61" x="342" y="108.1606">«include»</text><!--MD5=[09debf95549fbee18ace56d705988446]
+link UC_ViewApp to UC_Cand--><path d="M302.05,245.8738 C341.22,243.6338 389.74,240.8637 431.59,238.4838 " fill="none" id="UC_ViewApp-&gt;UC_Cand" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="436.66,238.1938,427.4465,234.7137,431.6681,238.479,427.9029,242.7007,436.66,238.1938" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="61" x="342" y="236.1606">«include»</text><!--MD5=[81faab11ac9334431a799e73ff1a1b98]
+reverse link UC_Cand to UC_Down--><path d="M624.9,235.2138 C670.18,236.2038 723.49,237.3738 766.64,238.3138 " fill="none" id="UC_Cand&lt;-UC_Down" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="619.7,235.1038,628.606,239.3089,624.6987,235.2183,628.7893,231.3111,619.7,235.1038" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="60" x="651" y="232.1606">«extend»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="417" x="282.5" y="348.5889">Figura: Ciclo de vida de las vacantes y gestión de candidatos</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="184" x="399" y="361.1729">Versión 1.0 - Sponsor: Gabriel Moreno</text><!--MD5=[f46e32b78af84e56cb3c404bba65936b]
+@startuml
+title <size:18>Módulo 4.2: Gestión de Ofertas Laborales</size>
+header Proyecto CJDB
+footer Versión 1.0 - Sponsor: Gabriel Moreno
+caption Figura: Ciclo de vida de las vacantes y gestión de candidatos
+
+left to right direction
+
+actor "Empleador" as Employer
+
+rectangle "Employer Dashboard" {
+  usecase "Publicar Oferta" as UC_Create
+  usecase "Editar / Cerrar Oferta" as UC_Edit
+  usecase "Ver Postulaciones" as UC_ViewApp
+  usecase "Ver Perfil de Postulante" as UC_Cand
+  usecase "Descargar CV (PDF)" as UC_Down
+  usecase "Validar Cuenta" as UC_Check <<Abstract>>
+}
+
+Employer - - UC_Create
+Employer - - UC_Edit
+Employer - - UC_ViewApp
+
+UC_Create ..> UC_Check : <<include>>
+UC_ViewApp ..> UC_Cand : <<include>>
+UC_Cand <.. UC_Down : <<extend>>
+
+note top of UC_Down : Restricción: Solo formato PDF.
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 06:22:07 VET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 17.0.18+8-Debian-1deb12u1
+Operating System: Linux
+Default Encoding: UTF-8
+Language: es
+Country: VE
+--></g></svg>

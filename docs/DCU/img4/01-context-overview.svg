@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="771px" preserveAspectRatio="none" style="width:511px;height:771px;" version="1.1" viewBox="0 0 511 771" width="511px" zoomAndPan="magnify"><defs><filter height="300%" id="f1e8600fvakh1u" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="129" x="370" y="9.2822">Proyecto CJDB-0312-0305</text><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="312" x="93.5" y="28.3486">Diagrama General de Casos de Uso</text><!--MD5=[464ccf26cf2da1d2e8de64c8c3921dc2]
+cluster Plataforma Banco de Datos CJDB--><rect fill="#FFFFFF" filter="url(#f1e8600fvakh1u)" height="610" style="stroke: #000000; stroke-width: 1.5;" width="271" x="194" y="112.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="253" x="203" y="127.5889">Plataforma Banco de Datos CJDB</text><ellipse cx="329.3614" cy="162.6174" fill="#FEFECE" filter="url(#f1e8600fvakh1u)" rx="58.8614" ry="14.5236" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="79" x="289.8614" y="167.2658">Registrarse</text><ellipse cx="329.7036" cy="450.7345" fill="#FEFECE" filter="url(#f1e8600fvakh1u)" rx="63.7036" ry="15.1407" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="90" x="284.7036" y="455.3829">Iniciar Sesión</text><ellipse cx="329.3237" cy="516.4585" fill="#FEFECE" filter="url(#f1e8600fvakh1u)" rx="64.8237" ry="15.3647" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="93" x="282.8237" y="521.1069">Cerrar Sesión</text><ellipse cx="329.6163" cy="233.817" fill="#FEFECE" filter="url(#f1e8600fvakh1u)" rx="94.1163" ry="21.2233" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="163" x="248.1163" y="238.4654">Buscar Ofertas Públicas</text><ellipse cx="329.6307" cy="308.6199" fill="#FEFECE" filter="url(#f1e8600fvakh1u)" rx="83.1307" ry="19.0261" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="138" x="260.6307" y="313.2683">Gestionar Perfil y CV</text><ellipse cx="329.5624" cy="381.6062" fill="#FEFECE" filter="url(#f1e8600fvakh1u)" rx="80.5624" ry="18.5125" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="132" x="263.5624" y="386.2547">Postular a Empleos</text><ellipse cx="329.3359" cy="592.5609" fill="#FEFECE" filter="url(#f1e8600fvakh1u)" rx="112.8359" ry="24.9672" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="204" x="227.3359" y="597.2094">Publicar y Gestionar Vacantes</text><ellipse cx="329.3655" cy="679.3668" fill="#FEFECE" filter="url(#f1e8600fvakh1u)" rx="119.3655" ry="26.2731" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="218" x="220.3655" y="684.0153">Administrar Usuarios/Contenido</text><!--MD5=[9eecb807d8a7c1ba44cb916f191401d3]
+entity Guest--><ellipse cx="78" cy="202.5938" fill="#FEFECE" filter="url(#f1e8600fvakh1u)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M78,210.5938 L78,237.5938 M65,218.5938 L91,218.5938 M78,237.5938 L65,252.5938 M78,237.5938 L91,252.5938 " fill="none" filter="url(#f1e8600fvakh1u)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="59" x="48.5" y="271.0889">Visitante</text><!--MD5=[b0178da15e77bd2872e27034dc3dd9f3]
+entity Searcher--><ellipse cx="78" cy="350.5938" fill="#FEFECE" filter="url(#f1e8600fvakh1u)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M78,358.5938 L78,385.5938 M65,366.5938 L91,366.5938 M78,385.5938 L65,400.5938 M78,385.5938 L91,400.5938 " fill="none" filter="url(#f1e8600fvakh1u)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="144" x="6" y="419.0889">Buscador de Empleo</text><!--MD5=[e3d7fad956befb23f1a8093c12fc44a0]
+entity Employer--><ellipse cx="78" cy="476.5938" fill="#FEFECE" filter="url(#f1e8600fvakh1u)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M78,484.5938 L78,511.5938 M65,492.5938 L91,492.5938 M78,511.5938 L65,526.5938 M78,511.5938 L91,526.5938 " fill="none" filter="url(#f1e8600fvakh1u)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="74" x="41" y="545.0889">Empleador</text><!--MD5=[97ab183161fd5d1db7fba7485cf76add]
+entity Admin--><ellipse cx="78" cy="592.5938" fill="#FEFECE" filter="url(#f1e8600fvakh1u)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M78,600.5938 L78,627.5938 M65,608.5938 L91,608.5938 M78,627.5938 L65,642.5938 M78,627.5938 L91,642.5938 " fill="none" filter="url(#f1e8600fvakh1u)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="95" x="30.5" y="661.0889">Administrador</text><path d="M211,41.0938 L211,96.4922 L448,96.4922 L448,51.0938 L438,41.0938 L211,41.0938 " fill="#FBFB77" filter="url(#f1e8600fvakh1u)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M438,41.0938 L438,51.0938 L448,51.0938 L438,41.0938 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="121" x="217" y="58.1606">Nota de Acceso:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="187" x="217" y="73.2935">La búsqueda es pública, pero</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="216" x="217" y="88.4263">Postular requiere registro (RF-01).</text><!--MD5=[2ffa435333c8f68025a7076ebd5f65e5]
+link Guest to UC_Reg--><path d="M107.73,221.9838 C129.08,213.6237 159.06,202.4937 186,194.5938 C217.75,185.2838 254.16,177.1537 282.23,171.4138 " fill="none" id="Guest-UC_Reg" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a0b9cd09cc67441be80fb366e5b2a356]
+link Guest to UC_Login--><path d="M107.83,265.2238 C121.86,281.7538 138.2,302.8338 150,323.5938 C172.11,362.4838 152.26,388.2238 186,417.5938 C207.93,436.6838 238.75,445.3038 266.12,448.9938 " fill="none" id="Guest-UC_Login" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3c60312cd9e49501e6725b4bf496b2e2]
+link Guest to UC_Search--><path d="M107.62,233.5938 C138.72,233.5938 190.06,233.5938 235.41,233.5938 " fill="none" id="Guest-UC_Search" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[6231b6372aabb01b3f42dc57f3c8eff9]
+link Searcher to UC_Profile--><path d="M150.15,356.8738 C162.07,352.9638 174.35,349.0638 186,345.5938 C214.05,337.2438 245.51,328.9638 271.73,322.3538 " fill="none" id="Searcher-UC_Profile" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[9da6c482d640a9b2ef0e468bd74f89d3]
+link Searcher to UC_Apply--><path d="M150.16,381.5938 C180.99,381.5938 217.2,381.5938 248.91,381.5938 " fill="none" id="Searcher-UC_Apply" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ec01f499d21d367f7b0334fe3ea4074b]
+link Searcher to UC_Search--><path d="M109.3,340.8738 C128.78,317.4138 156,289.1638 186,271.5938 C206.21,259.7538 230.18,251.5238 252.64,245.8338 " fill="none" id="Searcher-UC_Search" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[bc689529ab79ed0ebd91c0cc98eef426]
+link Searcher to UC_Login--><path d="M150.07,406.5738 C162,410.4638 174.31,414.2838 186,417.5938 C217.4,426.4838 253.18,434.7638 281.03,440.8138 " fill="none" id="Searcher-UC_Login" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ef65751a98b69784802eab957fe517f6]
+link Searcher to UC_Logout--><path d="M121.66,422.3338 C150.61,449.9038 183.98,481.5038 186,482.5938 C212.07,496.6838 243.92,504.9838 270.9,509.8538 " fill="none" id="Searcher-UC_Logout" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[739c2960eda8d866ce8c5d2c3bd06036]
+link Employer to UC_Jobs--><path d="M115.37,522.7138 C135.95,531.0538 162.24,541.3638 186,549.5938 C209.68,557.8038 235.88,565.9638 259.28,572.9338 " fill="none" id="Employer-UC_Jobs" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[477ecc63f7f56216d8ba78562622cff3]
+link Employer to UC_Login--><path d="M115.01,499.3638 C159.41,489.2238 234.9,471.9738 283.19,460.9438 " fill="none" id="Employer-UC_Login" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[e60947c12b36222b5639474e1e386435]
+link Employer to UC_Logout--><path d="M115.01,508.8938 C154.15,510.3038 217.44,512.5838 264.97,514.3038 " fill="none" id="Employer-UC_Logout" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[84597eb2b2508d1226fa9b8ea2c0bb19]
+link Admin to UC_Admin--><path d="M125.64,634.0638 C159.13,641.5838 205.21,651.9238 244.98,660.8438 " fill="none" id="Admin-UC_Admin" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[89e4a812854ba76026a29176233e400d]
+link Admin to UC_Login--><path d="M125.57,590.9137 C134.42,583.2938 143.07,574.7138 150,565.5938 C174.08,533.9038 155.36,509.0037 186,483.5938 C208.38,465.0338 239.25,456.4738 266.53,452.6838 " fill="none" id="Admin-UC_Login" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[c83a763039a3b10b803bec628ac459ae]
+link Admin to UC_Logout--><path d="M125.7,585.5938 C143.66,572.5538 164.93,558.9137 186,549.5938 C213.52,537.4238 246.1,529.4538 273.15,524.3938 " fill="none" id="Admin-UC_Logout" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ebc1381d41823b16a32a0623d702ed12]
+link UC_Search to GMN29--><path d="M239.02,227.5838 C208.93,220.2138 180.02,205.5538 168,177.0938 C152.16,139.6038 187.01,113.3637 228.35,96.0938 " fill="none" id="UC_Search-GMN29" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="206" x="146.5" y="757.876">Versión 1.1 - Vista de Contexto Clarificada</text><!--MD5=[b16b337a1b7d2c43a6059b1311132529]
+@startuml
+title <size:18>Diagrama General de Casos de Uso</size>
+header Proyecto CJDB-0312-0305
+footer Versión 1.1 - Vista de Contexto Clarificada
+
+left to right direction
+skinparam packageStyle rectangle
+
+actor "Visitante" as Guest
+actor "Buscador de Empleo" as Searcher
+actor "Empleador" as Employer
+actor "Administrador" as Admin
+
+rectangle "Plataforma Banco de Datos CJDB" {
+  usecase "Registrarse" as UC_Reg
+  usecase "Iniciar Sesión" as UC_Login
+  usecase "Cerrar Sesión" as UC_Logout
+  usecase "Buscar Ofertas Públicas" as UC_Search
+  
+  usecase "Gestionar Perfil y CV" as UC_Profile
+  usecase "Postular a Empleos" as UC_Apply
+  
+  usecase "Publicar y Gestionar Vacantes" as UC_Jobs
+  
+  usecase "Administrar Usuarios/Contenido" as UC_Admin
+}
+
+
+Guest - - UC_Reg
+Guest - - UC_Login
+Guest - - UC_Search
+
+Searcher - - UC_Profile
+Searcher - - UC_Apply
+Searcher - - UC_Search 
+Searcher - - UC_Login
+Searcher - - UC_Logout
+
+Employer - - UC_Jobs
+Employer - - UC_Login
+Employer - - UC_Logout
+
+Admin - - UC_Admin
+Admin - - UC_Login
+Admin - - UC_Logout
+
+note bottom of UC_Search
+  **Nota de Acceso:**
+  La búsqueda es pública, pero
+  Postular requiere registro (RF-01).
+end note
+
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 06:22:07 VET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 17.0.18+8-Debian-1deb12u1
+Operating System: Linux
+Default Encoding: ANSI_X3.4-1968
+Language: en
+Country: US
+--></g></svg>

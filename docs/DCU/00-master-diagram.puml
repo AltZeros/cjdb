@@ -1,0 +1,113 @@
+@startuml
+title <size:20>Sistema de Banco de Datos CJDB (Diagrama Maestro)</size>
+header Proyecto CJDB
+footer Versión Final 2.0 - Consolidada según ERS y ACP
+caption Vista completa de todos los módulos y actores integrados
+
+left to right direction
+skinparam packageStyle rectangle
+skinparam roundcorner 10
+
+' ACTORES
+actor "Visitante" as Guest
+actor "Buscador de Empleo" as Searcher
+actor "Empleador" as Employer
+actor "Administrador" as Admin
+actor "Sistema de Correo" as Mail <<System>>
+
+rectangle "Plataforma Banco de Datos CJDB" {
+
+    ' --- MÓDULO 1: IDENTIDAD ---
+    package "1. Autenticación (RF-01)" {
+        usecase "Registrarse" as UC_Reg
+        usecase "Iniciar Sesión" as UC_Login
+        usecase "Validar Token Email" as UC_Valid
+        usecase "Recuperar Contraseña" as UC_Recov
+        usecase "Enviar Correo de Verificación" as UC_SendEmail <<Internal>>
+        usecase "Cerrar Sesión" as UC_Logout
+    }
+
+    ' --- MÓDULO 2: EMPLEADORES ---
+    package "2. Gestión Empleador (RF-02)" {
+        usecase "Gestionar Perfil Empresa" as UC_CorpProfile
+        usecase "Publicar Vacante" as UC_JobCreate
+        usecase "Gestionar Candidatos" as UC_JobManage
+        usecase "Descargar CV (PDF)" as UC_DownCV
+    }
+
+    ' --- MÓDULO 3: CANDIDATOS ---
+    package "3. Búsqueda y Postulación (RF-03/04)" {
+        usecase "Buscar Ofertas" as UC_Search
+        usecase "Gestionar Perfil/CV" as UC_CandProfile
+        usecase "Postular a Vacante" as UC_Apply
+        usecase "Validar Postulación Única" as UC_Unique <<Internal>>
+    }
+
+    ' --- MÓDULO 4: ADMIN ---
+    package "4. Back-Office (RF-05)" {
+        usecase "Moderar Usuarios/Ofertas" as UC_Mod
+        usecase "Ver Métricas" as UC_Stats
+    }
+
+    ' --- VALIDACIONES TRANSVERSALES ---
+    usecase "Verificar Estado 'Verificado'" as UC_CheckStatus <<Abstract>>
+}
+
+' === RELACIONES ===
+
+' 1. Visitante (Solo acceso básico)
+Guest -- UC_Reg
+Guest -- UC_Login
+Guest -- UC_Search
+Guest -- UC_Recov
+Guest -- UC_Valid
+
+' 2. Buscador (Hereda búsqueda, añade gestión)
+Searcher -- UC_CandProfile
+Searcher -- UC_Apply
+Searcher -- UC_Search
+Searcher -- UC_Login
+Searcher -- UC_Logout
+
+' 3. Empleador
+Employer -- UC_CorpProfile
+Employer -- UC_JobCreate
+Employer -- UC_JobManage
+Employer -- UC_DownCV
+Employer -- UC_Login
+Employer -- UC_Logout
+
+' 4. Admin
+Admin -- UC_Logout
+Admin -- UC_Mod
+Admin -- UC_Stats
+Admin -- UC_Login
+
+' === LÓGICA INTERNA Y RESTRICCIONES ===
+
+' E-mail System
+UC_Reg ..> UC_SendEmail : <<include>>
+UC_Recov ..> UC_SendEmail : <<include>>
+UC_SendEmail ..> Mail : <<sends>>
+
+' Validaciones de Negocio
+UC_JobCreate ..> UC_CheckStatus : <<include>>
+UC_Apply ..> UC_CheckStatus : <<include>>
+UC_Apply ..> UC_Unique : <<include>>
+
+' Dependencias de Gestión
+UC_JobManage <.. UC_DownCV : <<extend>>
+
+note right of UC_CheckStatus
+  **Seguridad (RF-01):**
+  Acciones críticas requieren
+  correo validado previamente.
+end note
+
+note bottom of UC_CorpProfile
+  **RF-02:**
+  Incluye Logo y 
+  Descripción.
+end note
+
+@enduml

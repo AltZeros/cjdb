@@ -1,0 +1,44 @@
+@startuml
+title <size:18>Módulo 4.2: Gestión de Ofertas y Empresa</size>
+header Proyecto CJDB
+footer Ref: ERS RF-02 - Perfil Corporativo
+' caption Figura: Se añade la gestión de identidad corporativa (Faltante en v1.0)
+
+left to right direction
+
+actor "Empleador" as Employer
+
+rectangle "Gestión de Ofertas y Empresa (RF-02)" {
+  
+  package "Gestión Corporativa (RF-02)" {
+     usecase "Gestionar Perfil Empresa" as UC_Corp
+     usecase "Cargar Logo/Descripción" as UC_Logo
+  }
+
+  package "Gestión de Vacantes" {
+     usecase "Publicar Oferta" as UC_Create
+     usecase "Editar / Cerrar Oferta" as UC_Edit
+     usecase "Ver Postulaciones" as UC_ViewApp
+     usecase "Descargar CV (PDF)" as UC_Down
+  }
+
+  usecase "Validar Cuenta" as UC_Check <<Abstract>>
+}
+
+Employer -- UC_Corp
+Employer -- UC_Create
+Employer -- UC_Edit
+Employer -- UC_ViewApp
+
+' Relaciones
+UC_Corp ..> UC_Logo : <<include>>
+UC_Create ..> UC_Check : <<include>>
+UC_ViewApp ..> UC_Down : <<extend>>
+
+note left of UC_Corp
+  **Requerimiento RF-02:**
+  Definir nombre comercial,
+  logo y sitio web.
+end note
+
+@enduml

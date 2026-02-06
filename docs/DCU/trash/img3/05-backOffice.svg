@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="275px" preserveAspectRatio="none" style="width:1244px;height:275px;" version="1.1" viewBox="0 0 1244 275" width="1244px" zoomAndPan="magnify"><defs><filter height="300%" id="fo2k98g502gnl" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="73" x="1159" y="9.2822">Proyecto CJDB</text><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="363" x="434.5" y="28.3486">Módulo 4.4: Administración y Back-Office</text><!--MD5=[0a8d28c064f60890c58b72a7ef919339]
+cluster Panel Administrativo (RF-05)--><rect fill="#FFFFFF" filter="url(#fo2k98g502gnl)" height="170" style="stroke: #000000; stroke-width: 1.5;" width="781" x="148" y="56.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="223" x="427" y="71.5889">Panel Administrativo (RF-05)</text><ellipse cx="259.0118" cy="113.4961" fill="#FEFECE" filter="url(#fo2k98g502gnl)" rx="95.0118" ry="21.4024" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="165" x="176.5118" y="118.1446">Listar Usuarios y Ofertas</text><ellipse cx="553.1884" cy="158.4314" fill="#FEFECE" filter="url(#fo2k98g502gnl)" rx="77.1884" ry="17.8377" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="124" x="491.1884" y="163.0799">Auditar Contenido</text><ellipse cx="258.9128" cy="190.5763" fill="#FEFECE" filter="url(#fo2k98g502gnl)" rx="87.9128" ry="19.9826" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="149" x="184.4128" y="195.2247">Ver Métricas Globales</text><ellipse cx="832.5624" cy="183.6062" fill="#FEFECE" filter="url(#fo2k98g502gnl)" rx="80.5624" ry="18.5125" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="132" x="766.5624" y="188.2547">Suspender Usuario</text><ellipse cx="832.6068" cy="111.5151" fill="#FEFECE" filter="url(#fo2k98g502gnl)" rx="77.6068" ry="17.9214" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="125" x="770.1068" y="116.1635">Dar de Baja Oferta</text><!--MD5=[97ab183161fd5d1db7fba7485cf76add]
+entity Admin--><ellipse cx="53.5" cy="159.5938" fill="#FEFECE" filter="url(#fo2k98g502gnl)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M53.5,167.5938 L53.5,194.5938 M40.5,175.5938 L66.5,175.5938 M53.5,194.5938 L40.5,209.5938 M53.5,194.5938 L66.5,209.5938 " fill="none" filter="url(#fo2k98g502gnl)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="95" x="6" y="228.0889">Administrador</text><path d="M976,84.0938 L976,107.5938 L910.25,111.5938 L976,115.5938 L976,139.4922 A0,0 0 0 0 976,139.4922 L1214,139.4922 A0,0 0 0 0 1214,139.4922 L1214,94.0938 L1204,84.0938 L976,84.0938 A0,0 0 0 0 976,84.0938 " fill="#FBFB77" filter="url(#fo2k98g502gnl)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M1204,84.0938 L1204,94.0938 L1214,94.0938 L1204,84.0938 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="162" x="982" y="101.1606">Regla de Moderación:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="208" x="982" y="116.2935">Se eliminan ofertas fraudulentas</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="217" x="982" y="131.4263">o que violen normas comunitarias</text><!--MD5=[9928cedbca73137156d43d89da4e1057]
+link Admin to UC_List--><path d="M101.19,168.8438 C113.69,163.2938 127.27,157.5138 140,152.5938 C160.03,144.8538 182.31,137.2438 202.07,130.8238 " fill="none" id="Admin-UC_List" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[4bd619e7a23c24a80e47a6a77b358dcf]
+link Admin to UC_Audit--><path d="M101.24,215.5638 C113.52,220.9338 126.97,225.8238 140,228.5938 C233.04,248.3338 260.26,244.6738 354,228.5938 C413.65,218.3638 479.2,191.9638 517.91,174.6737 " fill="none" id="Admin-UC_Audit" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[43160fccfb057bb54e3f7ac324203934]
+link Admin to UC_Stats--><path d="M101.19,190.5938 C121.84,190.5938 146.82,190.5938 170.72,190.5938 " fill="none" id="Admin-UC_Stats" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ea0bd95813ea081c97868c5c0925d9b3]
+reverse link UC_List to UC_Audit--><path d="M342.86,126.3638 C388.97,133.4738 445.48,142.1737 488.13,148.7538 " fill="none" id="UC_List&lt;-UC_Audit" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="337.87,125.5938,346.1455,130.9337,342.8102,126.3648,347.3792,123.0294,337.87,125.5938" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="60" x="385" y="129.6606">«extend»</text><!--MD5=[02b09b7ecb9b4635ecbbcbb2f4198c55]
+reverse link UC_Audit to UC_Susp--><path d="M624.31,168.5537 C636.2,170.0438 648.44,171.4638 660,172.5938 C690.58,175.5938 724.32,177.9538 753.72,179.7138 " fill="none" id="UC_Audit&lt;-UC_Susp" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="619.23,167.9138,627.6553,173.0141,624.1903,168.5427,628.6617,165.0777,619.23,167.9138" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="60" x="661" y="168.6606">«extend»</text><!--MD5=[90982c1a2f1559e97713abb9edba0e5c]
+reverse link UC_Audit to UC_Remove--><path d="M621.08,147.2338 C666.19,139.5938 725.22,129.5938 769.28,122.1338 " fill="none" id="UC_Audit&lt;-UC_Remove" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="615.93,148.1038,625.4686,150.5563,620.8608,147.2748,624.1423,142.667,615.93,148.1038" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="60" x="661" y="127.6606">«extend»</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="215" x="508.5" y="261.876">Ref: ERS RF-05 - Moderación Administrativa</text><!--MD5=[4fa8be9faa72fb0316c9e1b44174a52e]
+@startuml
+title <size:18>Módulo 4.4: Administración y Back-Office</size>
+header Proyecto CJDB
+footer Ref: ERS RF-05 - Moderación Administrativa
+
+left to right direction
+skinparam packageStyle rectangle
+
+actor "Administrador" as Admin
+
+rectangle "Panel Administrativo (RF-05)" {
+  usecase "Listar Usuarios y Ofertas" as UC_List
+  usecase "Auditar Contenido" as UC_Audit
+  usecase "Ver Métricas Globales" as UC_Stats
+  
+  usecase "Suspender Usuario" as UC_Susp
+  usecase "Dar de Baja Oferta" as UC_Remove
+}
+
+Admin - - UC_List
+Admin - - UC_Audit
+Admin - - UC_Stats
+
+UC_List <.. UC_Audit : <<extend>>
+UC_Audit <.. UC_Susp : <<extend>>
+UC_Audit <.. UC_Remove : <<extend>>
+
+note right of UC_Remove
+  **Regla de Moderación:**
+  Se eliminan ofertas fraudulentas
+  o que violen normas comunitarias
+end note
+
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 06:22:07 VET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 17.0.18+8-Debian-1deb12u1
+Operating System: Linux
+Default Encoding: ANSI_X3.4-1968
+Language: en
+Country: US
+--></g></svg>

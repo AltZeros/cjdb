@@ -1,0 +1,62 @@
+@startuml
+title <size:18>Diagrama General de Casos de Uso</size>
+header Proyecto CJDB-0312-0305
+footer Versión 1.1 - Vista de Contexto Clarificada
+' caption Figura: Mapa de acceso por rol (Sin herencias confusas)
+
+left to right direction
+skinparam packageStyle rectangle
+
+actor "Visitante" as Guest
+actor "Buscador de Empleo" as Searcher
+actor "Empleador" as Employer
+actor "Administrador" as Admin
+
+rectangle "Plataforma Banco de Datos CJDB" {
+  ' Funciones Públicas
+  usecase "Registrarse" as UC_Reg
+  usecase "Iniciar Sesión" as UC_Login
+  usecase "Cerrar Sesión" as UC_Logout
+  usecase "Buscar Ofertas Públicas" as UC_Search
+  
+  ' Funciones de Buscador
+  usecase "Gestionar Perfil y CV" as UC_Profile
+  usecase "Postular a Empleos" as UC_Apply
+  
+  ' Funciones de Empleador
+  usecase "Publicar y Gestionar Vacantes" as UC_Jobs
+  
+  ' Funciones Admin
+  usecase "Administrar Usuarios/Contenido" as UC_Admin
+}
+
+' Relaciones Explícitas (Sin herencia para evitar confusión)
+
+' El Visitante solo puede entrar o buscar (RF-01 permite búsqueda pública implícita)
+Guest -- UC_Reg
+Guest -- UC_Login
+Guest -- UC_Search
+
+' El Buscador tiene sus funciones propias + las públicas
+Searcher -- UC_Profile
+Searcher -- UC_Apply
+Searcher -- UC_Search 
+Searcher -- UC_Login
+Searcher -- UC_Logout
+
+' El Empleador tiene sus funciones propias + las públicas
+Employer -- UC_Jobs
+Employer -- UC_Login
+Employer -- UC_Logout
+
+Admin -- UC_Admin
+Admin -- UC_Login
+Admin -- UC_Logout
+
+note bottom of UC_Search
+  **Nota de Acceso:**
+  La búsqueda es pública, pero
+  Postular requiere registro (RF-01).
+end note
+
+@enduml

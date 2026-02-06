@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="426px" preserveAspectRatio="none" style="width:1416px;height:426px;" version="1.1" viewBox="0 0 1416 426" width="1416px" zoomAndPan="magnify"><defs><filter height="300%" id="f1plo9jg0cvosg" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="73" x="1331" y="9.2822">Proyecto CJDB</text><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="318" x="543" y="28.3486">Módulo 4.3: Búsqueda y Postulación</text><!--MD5=[5e93ef0c05199fbdde3e60f3fb92192a]
+cluster Sistema de Postulación (RF-03/04)--><rect fill="#FFFFFF" filter="url(#f1plo9jg0cvosg)" height="265" style="stroke: #000000; stroke-width: 1.5;" width="892" x="197" y="112.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="270" x="508" y="127.5889">Sistema de Postulación (RF-03/04)</text><ellipse cx="298.2758" cy="174.6489" fill="#FEFECE" filter="url(#f1plo9jg0cvosg)" rx="68.2758" ry="16.0552" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="102" x="247.2758" y="179.2973">Buscar Ofertas</text><ellipse cx="618.9095" cy="172.6757" fill="#FEFECE" filter="url(#f1plo9jg0cvosg)" rx="95.9095" ry="21.5819" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="167" x="535.4095" y="177.3241">Filtrar (Categoría/Salario)</text><ellipse cx="298.2932" cy="247.5524" fill="#FEFECE" filter="url(#f1plo9jg0cvosg)" rx="85.2932" ry="19.4586" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="143" x="226.7932" y="252.2008">Ver Detalle de Oferta</text><ellipse cx="298.56" cy="318.8058" fill="#FEFECE" filter="url(#f1plo9jg0cvosg)" rx="69.06" ry="16.212" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="104" x="246.56" y="323.4542">Gestionar Perfil</text><ellipse cx="619.0616" cy="319.7061" fill="#FEFECE" filter="url(#f1plo9jg0cvosg)" rx="83.5616" ry="19.1123" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="139" x="549.5616" y="324.3545">Cargar/Actualizar CV</text><ellipse cx="618.8678" cy="247.7673" fill="#FEFECE" filter="url(#f1plo9jg0cvosg)" rx="78.8678" ry="18.1736" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="128" x="554.8678" y="252.4158">Postular a Vacante</text><ellipse cx="964.0938" cy="171.8125" fill="#FEFECE" filter="url(#f1plo9jg0cvosg)" rx="109.0938" ry="24.2188" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="70" x="929.0938" y="164.5785">«Internal»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="171" x="878.5938" y="180.8754">Validar Postulación Única</text><ellipse cx="963.7692" cy="254.5434" fill="#FEFECE" filter="url(#f1plo9jg0cvosg)" rx="103.2692" ry="23.9497" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="75" x="926.2692" y="247.9109">«Abstract»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="156" x="885.7692" y="264.2078">Verificar Email Validado</text><ellipse cx="964.0883" cy="337.6011" fill="#FEFECE" filter="url(#f1plo9jg0cvosg)" rx="92.5883" ry="24.0073" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="70" x="929.0883" y="331.0601">«Internal»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="139" x="894.5883" y="347.357">Notificar Postulación</text><!--MD5=[b0178da15e77bd2872e27034dc3dd9f3]
+entity Searcher--><ellipse cx="78" cy="216.5938" fill="#FEFECE" filter="url(#f1plo9jg0cvosg)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M78,224.5938 L78,251.5938 M65,232.5938 L91,232.5938 M78,251.5938 L65,266.5938 M78,251.5938 L91,266.5938 " fill="none" filter="url(#f1plo9jg0cvosg)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="144" x="6" y="285.0889">Buscador de Empleo</text><!--MD5=[d6e75f2a2d9b7b2a48fe909117c6250f]
+entity Mail--><ellipse cx="1261" cy="314.3906" fill="#FEFECE" filter="url(#f1plo9jg0cvosg)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M1261,322.3906 L1261,349.3906 M1248,330.3906 L1274,330.3906 M1261,349.3906 L1248,364.3906 M1261,349.3906 L1274,364.3906 " fill="none" filter="url(#f1plo9jg0cvosg)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="128" x="1197" y="382.8857">Sistema de Correo</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="69" x="1226.5" y="301.5889">«System»</text><path d="M506,41.0938 L506,96.4922 L732,96.4922 L732,51.0938 L722,41.0938 L506,41.0938 " fill="#FBFB77" filter="url(#f1plo9jg0cvosg)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M722,41.0938 L722,51.0938 L732,51.0938 L722,41.0938 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="205" x="512" y="58.1606">Restricción Técnica (RF-03):</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="121" x="512" y="73.2935">- Solo formato PDF</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="95" x="512" y="88.4263">- Máximo 5 MB</text><path d="M1136,144.0938 L1136,167.5938 L1073.17,171.5938 L1136,175.5938 L1136,199.4922 A0,0 0 0 0 1136,199.4922 L1386,199.4922 A0,0 0 0 0 1386,199.4922 L1386,154.0938 L1376,144.0938 L1136,144.0938 A0,0 0 0 0 1136,144.0938 " fill="#FBFB77" filter="url(#f1plo9jg0cvosg)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M1376,144.0938 L1376,154.0938 L1386,154.0938 L1376,144.0938 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="229" x="1142" y="161.1606">Validación de Negocio (RF-04):</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="200" x="1142" y="176.2935">Evita que un usuario se postule</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="185" x="1142" y="191.4263">dos veces a la misma oferta.</text><!--MD5=[ec01f499d21d367f7b0334fe3ea4074b]
+link Searcher to UC_Search--><path d="M150.29,223.5638 C163.17,219.2438 176.48,214.7738 189,210.5938 C211.97,202.9238 237.68,194.3838 258.31,187.5538 " fill="none" id="Searcher-UC_Search" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[6231b6372aabb01b3f42dc57f3c8eff9]
+link Searcher to UC_Profile--><path d="M150.23,271.7938 C163.12,276.1038 176.45,280.5138 189,284.5938 C211.15,291.7938 235.94,299.5738 256.22,305.8838 " fill="none" id="Searcher-UC_Profile" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d8711d9e40abec850cad1c7f4c0a925f]
+link Searcher to UC_View--><path d="M150.24,247.5938 C170.17,247.5938 192.02,247.5938 212.65,247.5938 " fill="none" id="Searcher-UC_View" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[738f65ab8db7bf54a459b3035efbee51]
+reverse link UC_Search to UC_Filter--><path d="M372.15,174.1338 C416.79,173.8538 474.49,173.4938 522.76,173.1938 " fill="none" id="UC_Search&lt;-UC_Filter" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="367.05,174.1738,376.084,178.0965,372.0498,174.1309,376.0154,170.0968,367.05,174.1738" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="60" x="415" y="169.6606">«extend»</text><!--MD5=[c44152d34d4e98802ea1c5128ecc087e]
+reverse link UC_View to UC_Apply--><path d="M389.16,247.5938 C436.61,247.5938 494.33,247.5938 539.93,247.5938 " fill="none" id="UC_View&lt;-UC_Apply" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="384.02,247.5938,393.02,251.5938,389.02,247.5938,393.02,243.5938,384.02,247.5938" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="60" x="415" y="243.6606">«extend»</text><!--MD5=[063ebea0f4974dab4bba1898c0a0b7bd]
+reverse link UC_Profile to UC_CV--><path d="M373.07,318.8238 C421.56,318.9738 485.14,319.1738 535.37,319.3338 " fill="none" id="UC_Profile&lt;-UC_CV" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="367.83,318.8038,376.8185,322.8294,372.83,318.818,376.8414,314.8295,367.83,318.8038" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="60" x="415" y="315.6606">«extend»</text><!--MD5=[35d76a540bc45d6bb0b13eb240dede53]
+link UC_Apply to UC_Check--><path d="M697.83,249.1838 C744.46,250.1338 804.41,251.3538 855.51,252.4038 " fill="none" id="UC_Apply-&gt;UC_Check" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="860.74,252.5038,851.8218,248.3246,855.741,252.4038,851.6618,256.323,860.74,252.5038" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="61" x="763" y="247.6606">«include»</text><!--MD5=[44cd79ac42fdaa4825a6fdd40e3ee39d]
+link UC_Apply to UC_Unique--><path d="M676.26,235.1338 C732.1,222.7538 818.29,203.6538 881.6,189.6338 " fill="none" id="UC_Apply-&gt;UC_Unique" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="886.51,188.5438,876.8621,186.5645,881.6261,189.6148,878.5757,194.3788,886.51,188.5438" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="61" x="763" y="199.6606">«include»</text><!--MD5=[d36336f439bbd79d9e546898dd1a989d]
+link UC_Apply to UC_Notify--><path d="M671.72,261.1638 C730.73,276.6438 827.52,302.0438 893.18,319.2738 " fill="none" id="UC_Apply-&gt;UC_Notify" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="898.25,320.6038,890.5482,314.4652,893.4113,319.344,888.5325,322.2071,898.25,320.6038" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="61" x="763" y="283.6606">«include»</text><!--MD5=[0999c651715e8b8f3904911405b44cc3]
+link UC_Notify to Mail--><path d="M1056.72,337.5938 C1102.22,337.5938 1156.02,337.5938 1196.84,337.5938 " fill="none" id="UC_Notify-Mail" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[74f5355888f8a1d6f55d7bc572e914a2]
+link UC_CV to GMN24--><path d="M537.96,314.8238 C503.53,308.2838 466.46,294.3038 445,265.0938 C414.48,223.5438 417.23,192.5338 445,149.0938 C460.33,125.1137 484.82,108.1737 510.66,96.2437 " fill="none" id="UC_CV-GMN24" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="117" x="643.5" y="412.876">Ref: ERS RF-03 y RF-04</text><!--MD5=[8a685a67e47c2795027e6b541b899851]
+@startuml
+title <size:18>Módulo 4.3: Búsqueda y Postulación</size>
+header Proyecto CJDB
+footer Ref: ERS RF-03 y RF-04
+
+left to right direction
+
+actor "Buscador de Empleo" as Searcher
+actor "Sistema de Correo" as Mail <<System>>
+
+rectangle "Sistema de Postulación (RF-03/04)" {
+  usecase "Buscar Ofertas" as UC_Search
+  usecase "Filtrar (Categoría/Salario)" as UC_Filter
+  usecase "Ver Detalle de Oferta" as UC_View
+  
+  usecase "Gestionar Perfil" as UC_Profile
+  usecase "Cargar/Actualizar CV" as UC_CV
+  
+  usecase "Postular a Vacante" as UC_Apply
+  usecase "Validar Postulación Única" as UC_Unique <<Internal>>
+  usecase "Verificar Email Validado" as UC_Check <<Abstract>>
+  usecase "Notificar Postulación" as UC_Notify <<Internal>>
+}
+
+Searcher - - UC_Search
+Searcher - - UC_Profile
+Searcher - - UC_View
+
+UC_Search <.. UC_Filter : <<extend>>
+UC_View <.. UC_Apply : <<extend>>
+
+UC_Profile <.. UC_CV : <<extend>>
+
+UC_Apply ..> UC_Check : <<include>>
+UC_Apply ..> UC_Unique : <<include>>
+UC_Apply ..> UC_Notify : <<include>>
+UC_Notify - - Mail
+
+note bottom of UC_CV
+  **Restricción Técnica (RF-03):**
+  - Solo formato PDF
+  - Máximo 5 MB
+end note
+
+note right of UC_Unique
+  **Validación de Negocio (RF-04):**
+  Evita que un usuario se postule
+  dos veces a la misma oferta.
+end note
+
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 06:22:07 VET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 17.0.18+8-Debian-1deb12u1
+Operating System: Linux
+Default Encoding: ANSI_X3.4-1968
+Language: en
+Country: US
+--></g></svg>
